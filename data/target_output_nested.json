@@ -1,0 +1,83 @@
+{
+  "sections": [
+      {
+          "section_name": "Main Contract Details",
+          "extracted_fields": [
+              {
+                  "data_point_name": "Contract Name",
+                  "value": "Centene Provider Agreement",
+                  "citation": "This document is called the Centene Provider Agreement",
+                  "rationale": "This value was chosen because it was the most recent and clearly stated value in the document",
+                  "document_name": "Signature Page",
+                  "history": []
+              }
+              
+          ],
+          "subsections": [
+              {
+                  "section_name": "Medicare",
+                  "extracted_fields": [],
+                  "subsections": [
+                      {
+                          "section_name": "Hospital",
+                          "extracted_fields": [],
+                          "subsections": [
+                              {
+                                  "section_name": "IP",
+                                  "extracted_fields": [],
+                                  "subsections": [
+                                      {
+                                          "section_name": "Covered Services",
+                                          "extracted_fields": [],
+                                          "subsections": [
+                                              {
+                                                  "section_name": "Meridian Medicaid Plan",
+                                                  "extracted_fields": [
+                                                      {
+                                                          "data_point_name": "Payment Rate",
+                                                          "value": "100% of MCR",
+                                                          "citation": "We will cover a payment rate of 100% of MCR",
+                                                          "rationale": "This value was chosen because it was the most recent and clearly stated value in the document",
+                                                          "document_name": "Attatchment A: Medicare, Exhibit B",
+                                                          "history": []
+                                                      }
+                                                  ],
+                                                  "subsections": []
+                                              },
+                                              {
+                                                  "section_name": "YouthCare HealthChoice Illinois",
+                                                  "extracted_fields": [],
+                                                  "subsections": []
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          "section_name": "Facility Services: - Inpatient Covered Services",
+                                          "extracted_fields": [],
+                                          "subsections": []
+                                      }
+                                  ]
+                              },
+                              {
+                                  "section_name": "OP",
+                                  "extracted_fields": [],
+                                  "subsections": []
+                              }
+                          ]
+                      },
+                      {
+                          "section_name": "Professional",
+                          "extracted_fields": [],
+                          "subsections": []
+                      }
+                  ]
+              },
+              {
+                  "section_name": "Medicaid",
+                  "extracted_fields": [],
+                  "subsections": []
+              }
+          ]
+      }
+  ]
+}

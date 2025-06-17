@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "section_name": "Main ESG Report Details",
+      "extracted_fields": [
+        {
+          "dataPointName": "Reporting Year",
+          "value": "2024",
+          "citation": "ESG_Report_2024.pdf — p. 1",
+          "rationale": "Clearly labelled on title page.",
+          "documentName": "ESG_Report_2024.pdf",
+          "history": []
+        },
+        {
+          "dataPointName": "Assurance Provider",
+          "value": "KPMG",
+          "citation": "Independent Assurance Statement",
+          "rationale": "Third-party validation.",
+          "documentName": "Assurance.pdf",
+          "history": []
+        }
+      ],
+      "subsections": [
+        {
+          "section_name": "ENVIRONMENT",
+          "section_type": "Pillar",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Carbon Footprint",
+              "section_type": "Metric Group",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Scope 1 Emissions",
+                  "value": "12,400 tCO₂e",
+                  "attributes": [
+                    { "baseline_year": "2020" },
+                    { "change_pct": "-15%" }
+                  ],
+                  "citation": "Section 3.2 – Emissions Table",
+                  "rationale": "Direct emissions figure.",
+                  "documentName": "ESG_Report_2024.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "section_name": "SOCIAL",
+          "section_type": "Pillar",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "DEI Initiatives",
+              "section_type": "Program Cluster",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Women in Leadership %",
+                  "value": "42%",
+                  "attributes": [
+                    { "target_year": "2027" },
+                    { "target_pct": "50%" }
+                  ],
+                  "citation": "Section 4.1 – Workforce Diversity",
+                  "rationale": "Key performance indicator.",
+                  "documentName": "ESG_Report_2024.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

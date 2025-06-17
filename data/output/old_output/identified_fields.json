@@ -1,0 +1,112 @@
+{
+  "field_values": {
+    "line_of_business": [
+      "commercial insurance",
+      "government programs"
+    ],
+    "provider_type": [
+      "Contracted Provider",
+      "Provider",
+      "health care professional",
+      "hospital",
+      "physician"
+    ],
+    "ip_op": [
+      "IP",
+      "OP"
+    ],
+    "service_type": [
+      "Emergency Care",
+      "Physical, Occupational and Speech Therapy",
+      "co-occurring disorders treatment",
+      "invasive procedure",
+      "substance abuse treatment",
+      "surgical procedure",
+      "treatment of mental illness"
+    ],
+    "plan_type": [
+      "Medicaid Product",
+      "Medicare"
+    ]
+  },
+  "field_counts": {
+    "line_of_business": 2,
+    "provider_type": 5,
+    "ip_op": 2,
+    "service_type": 7,
+    "plan_type": 2
+  },
+  "nested_structure": {
+    "Health Plan": {
+      "Physician": {
+        "IP": {
+          "Emergency Care": [
+            "HMO",
+            "PPO"
+          ],
+          "Routine Checkup": [
+            "HMO",
+            "PPO"
+          ]
+        },
+        "OP": {
+          "Specialist Consultation": [
+            "HMO",
+            "PPO"
+          ],
+          "Preventive Services": [
+            "HMO",
+            "PPO"
+          ]
+        }
+      },
+      "Hospital": {
+        "IP": {
+          "Surgery": [
+            "HMO",
+            "PPO"
+          ],
+          "Maternity Care": [
+            "HMO",
+            "PPO"
+          ]
+        },
+        "OP": {
+          "Outpatient Surgery": [
+            "HMO",
+            "PPO"
+          ],
+          "Diagnostic Imaging": [
+            "HMO",
+            "PPO"
+          ]
+        }
+      },
+      "Health Care Professional": {
+        "IP": {
+          "Rehabilitation Services": [
+            "HMO",
+            "PPO"
+          ]
+        },
+        "OP": {
+          "Physical Therapy": [
+            "HMO",
+            "PPO"
+          ],
+          "Mental Health Services": [
+            "HMO",
+            "PPO"
+          ]
+        }
+      }
+    }
+  },
+  "analysis_summary": {
+    "total_lines_of_business": 2,
+    "total_provider_types": 5,
+    "total_service_types": 7,
+    "total_plan_types": 2,
+    "has_ip_op_distinction": true
+  }
+}

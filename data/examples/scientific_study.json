@@ -1,0 +1,100 @@
+{
+  "sections": [
+    {
+      "section_name": "Main Article Details",
+      "extracted_fields": [
+        {
+          "dataPointName": "Article Title",
+          "value": "Neural Correlates of Curiosity",
+          "citation": "Journal of Cognitive Neuroscience, Vol. 42, No. 2",
+          "rationale": "Title as printed in the journal header.",
+          "documentName": "FullText.pdf",
+          "history": []
+        },
+        {
+          "dataPointName": "DOI",
+          "value": "10.1234/jocn.2025.42.2.101",
+          "citation": "Front-matter metadata",
+          "rationale": "DOI allocated by CrossRef.",
+          "documentName": "FullText.pdf",
+          "history": []
+        },
+        {
+          "dataPointName": "Publication Date",
+          "value": "2025-03-15",
+          "citation": "Journal front page",
+          "rationale": "Official publication date.",
+          "documentName": "FullText.pdf",
+          "history": []
+        }
+      ],
+      "subsections": [
+        {
+          "section_name": "METHODS",
+          "section_type": "Paper Section",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Data Collection",
+              "section_type": "Process Phase",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Sampling Method",
+                  "value": "Stratified Random",
+                  "attributes": [
+                    { "sample_size": "180" },
+                    { "population": "Undergraduate students" }
+                  ],
+                  "citation": "Section 2.1",
+                  "rationale": "Explicitly states sampling protocol.",
+                  "documentName": "FullText.pdf",
+                  "history": []
+                },
+                {
+                  "dataPointName": "Instrumentation",
+                  "value": "7-Tesla fMRI",
+                  "attributes": [
+                    { "manufacturer": "Siemens" },
+                    { "scan_duration": "12 min" }
+                  ],
+                  "citation": "Table 3 – Equipment List",
+                  "rationale": "Hardware specs for replication.",
+                  "documentName": "FullText.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "section_name": "RESULTS",
+          "section_type": "Paper Section",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Neuroimaging Findings",
+              "section_type": "Outcome Cluster",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Peak Activation",
+                  "value": "Left hippocampus (p<0.001)",
+                  "attributes": [
+                    { "coordinate_x": "-24" },
+                    { "coordinate_y": "-12" },
+                    { "coordinate_z": "-16" }
+                  ],
+                  "citation": "Figure 4B",
+                  "rationale": "Hippocampal peak voxels reported.",
+                  "documentName": "FullText.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

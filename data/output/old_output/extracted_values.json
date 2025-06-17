@@ -1,0 +1,1280 @@
+{
+  "sections": [
+    {
+      "section_name": "Main Contract Details",
+      "extracted_fields": [
+        {
+          "data_point_name": "service type",
+          "value": "Covered Services",
+          "citation": "Contracted Providers shall submit to Payor or its delegate claims for payment for Covered Services rendered to Covered Persons.",
+          "rationale": "",
+          "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "Both",
+          "citation": "This provision shall not prohibit collection of any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement.",
+          "rationale": "",
+          "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Medicaid",
+          "citation": "Attachment A: Medicaid",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Medicare",
+          "citation": "Attachment B: Medicare",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Commercial-Exchange",
+          "citation": "Attachment C: Commercial-Exchange",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Covered Services",
+          "citation": "Each Contracted Provider shall provide Covered Services described or referenced in the applicable Product Attachment(s) to Covered Persons",
+          "rationale": "",
+          "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "Both",
+          "citation": "Provider and Contracted Providers shall at all times cooperate and comply with the requirements, policies, programs and procedures",
+          "rationale": "",
+          "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+          "history": []
+        },
+        {
+          "data_point_name": "provider type",
+          "value": "Provider",
+          "citation": "is made and entered by and between MEMORIAL HEALTH GROUP PLLC (\"Provider\")",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  This Participating Provider Ag",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "health care services",
+          "citation": "Provider desires to provide certain health care services to individuals in products offered by or available from or through a Company or Payor",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  This Participating Provider Ag",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "Both",
+          "citation": "Provider desires to provide certain health care services to individuals in products offered by or available from or through a Company or Payor",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  This Participating Provider Ag",
+          "history": []
+        },
+        {
+          "data_point_name": "provider type",
+          "value": "MEMORIAL HEALTH GROUP PLLC",
+          "citation": "PROVIDER: MEMORIAL HEALTH GROUP PLLC (Legibly Print Name of Provider)",
+          "rationale": "",
+          "document_name": "ARTICLE VIII - MISCELLANEOUS",
+          "history": []
+        },
+        {
+          "data_point_name": "effective date",
+          "value": "Jul 19, 2023",
+          "citation": "Effective Date: Jul 19, 2023",
+          "rationale": "",
+          "document_name": "ARTICLE VIII - MISCELLANEOUS",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Covered Services",
+          "citation": "continue to provide Covered Services to Covered Persons",
+          "rationale": "",
+          "document_name": "ARTICLE VII - TERM AND TERMINATION",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "IP",
+          "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products",
+          "rationale": "",
+          "document_name": "ARTICLE VII - TERM AND TERMINATION",
+          "history": []
+        },
+        {
+          "data_point_name": "provider type",
+          "value": "Contracted Provider",
+          "citation": "the participation of Provider or a Contracted Provider as a Participating Provider",
+          "rationale": "",
+          "document_name": "ARTICLE VII - TERM AND TERMINATION",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "Emergency Care",
+          "citation": "Each Hospital shall provide Emergency Care (as hereafter defined) in accordance with Regulatory Requirements.",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "IP/OP",
+          "citation": "\"Emergency Care\" means inpatient and/or outpatient Covered Services furnished by a qualified provider that are needed to evaluate or stabilize an Emergency Medical Condition.",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+          "history": []
+        },
+        {
+          "data_point_name": "provider type",
+          "value": "Hospital",
+          "citation": "If Provider or a Contracted Provider is a hospital (\"Hospital\"), the following provisions apply.",
+          "rationale": "",
+          "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+          "history": []
+        },
+        {
+          "data_point_name": "service type",
+          "value": "general and professional liability insurance",
+          "citation": "shall maintain policies of general and professional liability insurance",
+          "rationale": "This indicates the types of services covered under the insurance.",
+          "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+          "history": []
+        },
+        {
+          "data_point_name": "ip/op",
+          "value": "both",
+          "citation": "Provider and/or each Contracted Provider shall maintain policies",
+          "rationale": "The language suggests coverage for both inpatient and outpatient services.",
+          "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+          "history": []
+        },
+        {
+          "data_point_name": "provider type",
+          "value": "Provider and Contracted Provider",
+          "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+          "rationale": "This indicates the types of providers involved in the agreement.",
+          "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+          "history": []
+        }
+      ],
+      "subsections": [
+        {
+          "section_name": "MEDICAID",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "General Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "Both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "health care services, supplies or accommodations (including Covered Services)",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Oklahoma Medicaid Product (SoonerSelect)",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "to provide Covered Services to Covered Persons in the State's Medicaid program known as SoonerSelect",
+                              "citation": "Health Plan has contracted with the Oklahoma Health Care Authority ('OHCA') to be a State Medicaid Care Management Organization to provide Covered Services to Covered Persons in the State's Medicaid program known as SoonerSelect",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  PRODUCT ATTACHMENT",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Nothing in this Attachment shall be construed as conferring any financial or legal liabilities of Payor under any Regulatory Requirements or the Payor Contract to Company or Health Plan.",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  PRODUCT ATTACHMENT",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "the appropriate amount under the applicable Compensation Schedule in effect on the date of service",
+                              "citation": "The compensation for Covered Services provided to a Covered Person ('Compensation Amount') will be the appropriate amount under the applicable Compensation Schedule in effect on the date of service for the Product in which the Covered Person participates.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility",
+                              "citation": "Payor shall pay or arrange for payment of each Clean Claim received from a Contracted Provider for Covered Services provided to a Covered Person in accordance with the applicable Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Compensation Schedule",
+                              "citation": "Company or Payor, as applicable, will provide advance written notice (electronic or paper) thereof to Provider, along with the applicable Product Attachment and the new Compensation Schedule",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "Provider shall maintain written agreements with each of its Contracted Providers (other than Provider) that require the Contracted Providers to comply with the terms and conditions of this Agreement",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Behavioral Health Crisis Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Specialty Program",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "current Medicaid rate",
+                              "citation": "Targeted Case Management (TCM) services shall be reimbursed at the current Medicaid rate;",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  SCHEDULE A-2",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "Provider shall familiarize itself with all Covered Benefits provided under the State Contract and, where applicable to Provider, shall comply therewith.",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  SCHEDULE A-2",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "180 days",
+                              "citation": "either Party gives the other Party written notice of non-renewal of this Agreement not less than 180 days prior to the end of the then-current term",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "continue to provide Covered Services to Covered Persons",
+                              "citation": "each affected Contracted Provider (including Provider, if applicable) shall continue to provide, as a Participating Provider, Covered Services to Covered Persons",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "90 days",
+                              "citation": "continue to provide Covered Services to Covered Persons in the applicable Product(s) during the longer of the 90 day period following the date of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "Written Notice",
+                              "citation": "This Agreement may be terminated by either Party giving the other Party at least 180 days prior written notice of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "professional Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Medicaid",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "100% of the Payor's Medicaid fee schedule",
+                              "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment A Medicaid  EXHIBIT 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Commercial-Exchange",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Provider will be designated as a 'Participating Provider' in the Product Attachments listed below as of the date of successful completion of credentialing in accordance with this Agreement.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "92-3633257",
+                              "citation": "Tax Identification Number: 92-3633257",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "This Agreement is entered into by the Parties signing it for their benefit, as well as, in the case of Health Plan, the benefit of Company, and in the case of Provider, the benefit of each Contracted Provider.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "citation": "Provider acknowledges and agrees that all information relating to Company's programs, policies, protocols and procedures is proprietary information and Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP/OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Emergency Care",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Medicaid",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "No payment shall be made to the Provider unless the Provider has strictly conformed to the policies and procedures of the HCBS Waiver Program.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "general and professional liability insurance",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "$1,000,000 per occurrence, and $3,000,000 in the aggregate",
+                              "citation": "in a minimum amount of $1,000,000 per occurrence, and $3,000,000 in the aggregate unless a lesser amount is accepted by Health Plan",
+                              "rationale": "This specifies the benchmark rate for insurance coverage.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "indemnify and hold harmless",
+                              "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+                              "rationale": "This describes the reimbursement methodology related to indemnification.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_name": "MEDICARE",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "General Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "Both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "the appropriate amount under the applicable Compensation Schedule in effect on the date of service",
+                              "citation": "The compensation for Covered Services provided to a Covered Person ('Compensation Amount') will be the appropriate amount under the applicable Compensation Schedule in effect on the date of service for the Product in which the Covered Person participates.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility",
+                              "citation": "Payor shall pay or arrange for payment of each Clean Claim received from a Contracted Provider for Covered Services provided to a Covered Person in accordance with the applicable Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Medicare Product Attachment",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Payor shall pay, or arrange to pay, Provider for Covered Services rendered to Covered Persons in accordance with the Compensation Schedule(s) to this Medicare Product Attachment.",
+                              "citation": "Payor shall pay, or arrange to pay, Provider for Covered Services rendered to Covered Persons in accordance with the Compensation Schedule(s) to this Medicare Product Attachment.",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  SCHEDULE A",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "85% of the Medicare Rate in effect on the date of service.",
+                              "citation": "| Radiology Services | 85% of the Medicare Rate in effect on the date of service. |",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  SCHEDULE A",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "100% of the Average Sales Price (ASP) plus 6%",
+                              "citation": "| Drugs and Biologicals | 100% of the Average Sales Price (ASP) plus 6% |",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  SCHEDULE A",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "Provider agrees that HHS, the Comptroller General or their designees have the right to audit evaluate, collect and inspect any books, contracts, computer or other electronic systems, including medical records and documentation of Provider relating to the CMS Contract through 10 years from the termination date of this Medicare Product Attachment or from the date of Completion of Audit, whichever is later.",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  SCHEDULE A",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Compensation Schedule",
+                              "citation": "Company or Payor, as applicable, will provide advance written notice (electronic or paper) thereof to Provider, along with the applicable Product Attachment and the new Compensation Schedule",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "Provider shall maintain written agreements with each of its Contracted Providers (other than Provider) that require the Contracted Providers to comply with the terms and conditions of this Agreement",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "100% of the Medicare fee schedule in effect on the date of service",
+                              "citation": "for those Covered Services not included in the Service Categories in Table 1 below, 100% of the Medicare fee schedule in effect on the date of service",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "30% of Allowable Charges",
+                              "citation": "the maximum compensation shall be 30% of Allowable Charges.",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the lesser of: (i) Allowable Charges; or (ii) as applicable",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  EXHIBIT 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Commercial-Exchange",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Provider will be designated as a 'Participating Provider' in the Product Attachments listed below as of the date of successful completion of credentialing in accordance with this Agreement.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "92-3633257",
+                              "citation": "Tax Identification Number: 92-3633257",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "This Agreement is entered into by the Parties signing it for their benefit, as well as, in the case of Health Plan, the benefit of Company, and in the case of Provider, the benefit of each Contracted Provider.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "citation": "Provider acknowledges and agrees that all information relating to Company's programs, policies, protocols and procedures is proprietary information and Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Medicare Product",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "subject to all of the other provisions in the Agreement (including the Provider Manual) that affect or relate to compensation for Covered Services provided to Covered Persons.",
+                              "citation": "the compensation hereunder for the provision of Covered Services by Contracted Providers to Covered Persons enrolled in the Medicare Product is subject to all of the other provisions in the Agreement (including the Provider Manual) that affect or relate to compensation for Covered Services provided to Covered Persons.",
+                              "rationale": "",
+                              "document_name": "Attachment B Medicare  MEDICARE PRODUCT ATTACHMENT",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "180 days",
+                              "citation": "either Party gives the other Party written notice of non-renewal of this Agreement not less than 180 days prior to the end of the then-current term",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "continue to provide Covered Services to Covered Persons",
+                              "citation": "each affected Contracted Provider (including Provider, if applicable) shall continue to provide, as a Participating Provider, Covered Services to Covered Persons",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "90 days",
+                              "citation": "continue to provide Covered Services to Covered Persons in the applicable Product(s) during the longer of the 90 day period following the date of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "Written Notice",
+                              "citation": "This Agreement may be terminated by either Party giving the other Party at least 180 days prior written notice of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP/OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Emergency Care",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Medicaid",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "No payment shall be made to the Provider unless the Provider has strictly conformed to the policies and procedures of the HCBS Waiver Program.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "general and professional liability insurance",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "$1,000,000 per occurrence, and $3,000,000 in the aggregate",
+                              "citation": "in a minimum amount of $1,000,000 per occurrence, and $3,000,000 in the aggregate unless a lesser amount is accepted by Health Plan",
+                              "rationale": "This specifies the benchmark rate for insurance coverage.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "indemnify and hold harmless",
+                              "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+                              "rationale": "This describes the reimbursement methodology related to indemnification.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_name": "COMMERCIAL-EXCHANGE",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "General Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "Both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "the appropriate amount under the applicable Compensation Schedule in effect on the date of service",
+                              "citation": "The compensation for Covered Services provided to a Covered Person ('Compensation Amount') will be the appropriate amount under the applicable Compensation Schedule in effect on the date of service for the Product in which the Covered Person participates.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility",
+                              "citation": "Payor shall pay or arrange for payment of each Clean Claim received from a Contracted Provider for Covered Services provided to a Covered Person in accordance with the applicable Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement.",
+                              "rationale": "",
+                              "document_name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Compensation Schedule",
+                              "citation": "Company or Payor, as applicable, will provide advance written notice (electronic or paper) thereof to Provider, along with the applicable Product Attachment and the new Compensation Schedule",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "Provider shall maintain written agreements with each of its Contracted Providers (other than Provider) that require the Contracted Providers to comply with the terms and conditions of this Agreement",
+                              "rationale": "",
+                              "document_name": "ARTICLE II - PRODUCTS AND SERVICES",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Commercial-Exchange",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "100% of the Payor's fee schedule",
+                              "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "30% of Allowable Charges",
+                              "citation": "the maximum compensation shall be thirty percent (30%) of Allowable Charges.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "100% of ASP plus 6%",
+                              "citation": "the reimbursement for Drugs and Biologicals shall be 100% of the Average Sales Price (ASP) plus 6%.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  EXHIBIT 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  EXHIBIT 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "health care services, supplies or accommodations",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Commercial-Exchange Product",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Except as modified or supplemented by this Product Attachment, the compensation hereunder for the provision of Covered Services by Contracted Providers to Covered Persons enrolled in or covered by the Commercial-Exchange Product is subject to all of the other provisions in the Agreement.",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  PRODUCT ATTACHMENT",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Commercial-Exchange",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Standard Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Provider will be designated as a 'Participating Provider' in the Product Attachments listed below as of the date of successful completion of credentialing in accordance with this Agreement.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE B",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    },
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "92-3633257",
+                              "citation": "Tax Identification Number: 92-3633257",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "This Agreement is entered into by the Parties signing it for their benefit, as well as, in the case of Health Plan, the benefit of Company, and in the case of Provider, the benefit of each Contracted Provider.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "citation": "Provider acknowledges and agrees that all information relating to Company's programs, policies, protocols and procedures is proprietary information and Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+                              "rationale": "",
+                              "document_name": "ARTICLE VIII - MISCELLANEOUS",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Commercial-Exchange",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "the lesser of billed charges or a fee schedule",
+                              "citation": "the provider will be paid the lesser of billed charges or a fee schedule",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  SCHEDULE A",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Provider shall comply with the requirements of applicable Oklahoma law",
+                              "citation": "Provider shall comply with the requirements of applicable Oklahoma law",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  SCHEDULE A",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the provider will be paid the lesser of billed charges or a fee schedule",
+                              "rationale": "",
+                              "document_name": "Attachment C Commercial-Exchange  SCHEDULE A",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        },
+                        {
+                          "section_name": "Participating Provider",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "180 days",
+                              "citation": "either Party gives the other Party written notice of non-renewal of this Agreement not less than 180 days prior to the end of the then-current term",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "continue to provide Covered Services to Covered Persons",
+                              "citation": "each affected Contracted Provider (including Provider, if applicable) shall continue to provide, as a Participating Provider, Covered Services to Covered Persons",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "90 days",
+                              "citation": "continue to provide Covered Services to Covered Persons in the applicable Product(s) during the longer of the 90 day period following the date of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "Written Notice",
+                              "citation": "This Agreement may be terminated by either Party giving the other Party at least 180 days prior written notice of such termination",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products",
+                              "rationale": "",
+                              "document_name": "ARTICLE VII - TERM AND TERMINATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "IP/OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Emergency Care",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Medicaid",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "No payment shall be made to the Provider unless the Provider has strictly conformed to the policies and procedures of the HCBS Waiver Program.",
+                              "rationale": "",
+                              "document_name": "PARTICIPATING PROVIDER AGREEMENT  SCHEDULE A",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "section_name": "both",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "general and professional liability insurance",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Health Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "$1,000,000 per occurrence, and $3,000,000 in the aggregate",
+                              "citation": "in a minimum amount of $1,000,000 per occurrence, and $3,000,000 in the aggregate unless a lesser amount is accepted by Health Plan",
+                              "rationale": "This specifies the benchmark rate for insurance coverage.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "indemnify and hold harmless",
+                              "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+                              "rationale": "This describes the reimbursement methodology related to indemnification.",
+                              "document_name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

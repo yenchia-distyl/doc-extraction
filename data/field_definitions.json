@@ -1,0 +1,162 @@
+{
+    "sections": [
+        {
+            "section_name": "Required Fields",
+            "data_points": [
+                {
+                    "data_point_name": "health plan state",
+                    "description": "The U.S. state in which the health plan is authorized to operate and administer services under the agreement.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "Illinois, Oregon, California"
+                },
+                {
+                    "data_point_name": "termination date",
+                    "description": "The specific end date of the agreement if provided in the contract.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "12/31/2015, 12/31/2017, 12/31/2020"
+                },
+                {
+                    "data_point_name": "termination upon notice days",
+                    "description": "The number of days' notice required for either party to terminate the agreement without cause.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "180.0, 90.0, 60.0"
+                },
+                {
+                    "data_point_name": "termination with cause days",
+                    "description": "The number of days of advance notice required to terminate the contract for cause, typically due to a material breach.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "90.0, 30.0, 60.0"
+                },
+                {
+                    "data_point_name": "contract effective date",
+                    "description": "The official start date when the agreement becomes binding and enforceable between the payer and provider.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "2/1/2013, 1/1/2014, 5/1/2011"
+                },
+                {
+                    "data_point_name": "irs num",
+                    "description": "The provider organization's federal Employer Identification Number (EIN) or Tax Identification Number (TIN).",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "01-0556995, 01-0567661, 01-0859507"
+                },
+                {
+                    "data_point_name": "irs name",
+                    "description": "The legal name of the provider organization associated with the IRS number.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "LINCARE INC, YEUGENY ODESSICY MDSC, BYRAM HEALTHCARE CENTER, INC"
+                },
+                {
+                    "data_point_name": "line of business",
+                    "description": "The specific insurance line or payer program the contract applies to, such as Medicaid, Medicare, or Commercial.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "MEDICARE, MEDICAID, COMMERCIAL, MEDICAID"
+                },
+                {
+                    "data_point_name": "provider type",
+                    "description": "The general classification of the provider entity (e.g., Hospital, Practitioner, Ancillary).",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "Professional, Ancillary, Facility"
+                },
+                {
+                    "data_point_name": "provider type level 2",
+                    "description": "A more specific category within the provider type, such as Hospital, Behavioral Health Facility, or Primary Care.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "DME, FQHC, Home Health"
+                },
+                {
+                    "data_point_name": "ip/op",
+                    "description": "Indicates whether the contract covers inpatient services (IP), outpatient services (OP), or both.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "IP, OP"
+                },
+                {
+                    "data_point_name": "service type",
+                    "description": "The specific medical services provided under the contract, such as Emergency Room, Mental Health, or Surgical Services.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "Where HMO is the Payor for both Medicare covered services and Medicaid covered services: - Covered Services that are Medicare covered services and Medicaid covered services, Durable Medical Equipment (DME), Covered Services"
+                },
+                {
+                    "data_point_name": "lesser of logic language included (y/n)",
+                    "description": "Indicates whether the contract includes language that states the provider will be paid the lesser of billed charges or a fee schedule.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "Y, N"
+                },
+                {
+                    "data_point_name": "lesser of rate",
+                    "description": "The benchmark rate or fee schedule referenced in the lesser-of-billed-charges clause.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "100% of BC, Manufacturer's suggested retail price less 20%, 100% of AC"
+                },
+                {
+                    "data_point_name": "reimb methodology",
+                    "description": "The full description of how the provider will be paid under the agreement (e.g., percent of Medicaid, DRG, per diem).",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "Payor shall pay Provider the lesser of: (i) Provider's billed charges; or (ii) Payor's maximum reimbursement schedule, which shall be the amount payable by Medicare..."
+                },
+                {
+                    "data_point_name": "reimb methodology short",
+                    "description": "A concise label summarizing the reimbursement method, such as 'Per Diem' or '100% of Medicaid'.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "% of MCR + % of MCD, % of MCR, % of MCD"
+                },
+                {
+                    "data_point_name": "if rate is percent of payer or mcr - standard",
+                    "description": "The full contract language specifying a payment rate as a percentage of Medicaid, Medicare, or payer-defined rates.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "100% of MCR + 100% of MCD, 100% of MCR, 100% of MCD"
+                },
+                {
+                    "data_point_name": "if rate is percent of payer or mcr - standard short",
+                    "description": "A brief version of the standard rate clause, summarizing the percentage and reference (e.g., '100% of Medicaid').",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "1, 0.9, 1.25"
+                },
+                {
+                    "data_point_name": "flat fee",
+                    "description": "A specified dollar amount paid per unit of service, per visit, or per case regardless of billed amount.",
+                    "related_routine_steps": [],
+                    "rationale": "<an expolanation of what this field is used for",
+                    "extraction_instructions": "<the field routine goes here>",
+                    "examples": "$5100 / $4500, 93.65, 47.86"
+                }
+            ],
+            "subsections": []
+        }
+    ]
+}

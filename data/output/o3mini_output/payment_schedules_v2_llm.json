@@ -1,0 +1,336 @@
+{
+  "extraction_date": "2025-06-02T13:22:55.612321",
+  "source_directory": "data/headers/schedule",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "Attachment_A_Medicaid__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "MEDICAID Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Radiology Services",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Laboratory Services",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "DME Services",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Physical, Occupational and Speech Therapy",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Physical, Occupational and Speech Therapy"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Physical, Occupational and Speech Therapy"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Physical, Occupational and Speech Therapy"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Physical, Occupational and Speech Therapy"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Physical, Occupational and Speech Therapy"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Drugs and Biologicals",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "UNKNOWN",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "UNKNOWN Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Covered Services"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+    "sections": [
+        {
+            "section_name": "Main Contract Details",
+            "extracted_fields": [
+                {
+                    "data_point_name": "Contract Name",
+                    "value": "Provider Agreement",
+                    "citation": "This document contains provider agreement payment schedules",
+                    "rationale": "Default contract name for payment schedules",
+                    "document_name": "Payment Schedules",
+                    "history": []
+                }
+            ],
+            "subsections": [
+                {
+                    "section_name": "Medicaid",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Line of Business",
+                            "extracted_fields": [
+                                {
+                                    "data_point_name": "line_of_business",
+                                    "value": "MEDICAID"
+                                }
+                            ],
+                            "subsections": [
+                                {
+                                    "section_name": "Provider Type",
+                                    "extracted_fields": [
+                                        {
+                                            "data_point_name": "provider_type",
+                                            "value": "Professional Services"
+                                        }
+                                    ],
+                                    "subsections": [
+                                        {
+                                            "section_name": "IP/OP",
+                                            "extracted_fields": [
+                                                {
+                                                    "data_point_name": "ip_op",
+                                                    "value": "OP"
+                                                }
+                                            ],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "Service Type",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "service_type",
+                                                            "value": "Covered Services"
+                                                        }
+                                                    ],
+                                                    "subsections": [
+                                                        {
+                                                            "section_name": "Plan Type",
+                                                            "extracted_fields": [
+                                                                {
+                                                                    "data_point_name": "plan_type",
+                                                                    "value": "Medicaid Product"
+                                                                }
+                                                            ],
+                                                            "subsections": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "section_name": "Payment Fields",
+                            "extracted_fields": [
+                                {
+                                    "data_point_name": "lesser_of_logic_language_included",
+                                    "value": "Y",
+                                    "citation": "the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                                    "rationale": "The text explicitly states that the Allowed Amount is the lesser of two specified amounts, indicating the presence of 'lesser of' logic.",
+                                    "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+                                },
+                                {
+                                    "data_point_name": "lesser_of_rate",
+                                    "value": "100% of the Payor's Medicaid fee schedule",
+                                    "citation": "the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                                    "rationale": "The specific rate is defined as 100% of the Payor's Medicaid fee schedule, which is the applicable rate for reimbursement.",
+                                    "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+                                },
+                                {
+                                    "data_point_name": "reimb_methodology",
+                                    "value": "Allowed Amount is the lesser of Allowable Charges or 100% of the Payor's Medicaid fee schedule, less applicable Cost-Sharing Amounts.",
+                                    "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                    "rationale": "This description provides a full explanation of how the reimbursement amount is calculated, including the deduction of Cost-Sharing Amounts.",
+                                    "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+                                },
+                                {
+                                    "data_point_name": "reimb_methodology_short",
+                                    "value": "100% MCD - Cost Sharing",
+                                    "citation": "Allowed Amount is the lesser of Allowable Charges or 100% of the Payor's Medicaid fee schedule, less applicable Cost-Sharing Amounts.",
+                                    "rationale": "This concise version summarizes the reimbursement methodology, indicating that it is based on Medicaid rates and includes cost-sharing considerations.",
+                                    "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+                                },
+                                {
+                                    "data_point_name": "flat_fee",
+                                    "value": "",
+                                    "citation": "",
+                                    "rationale": "No specific flat fee amounts are mentioned in the provided text.",
+                                    "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+                                }
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "section_name": "Medicare",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Line of Business",
+                            "extracted_fields": [
+                                {
+                                    "data_point_name": "line_of_business",
+                                    "value": "MEDICARE"
+                                }
+                            ],
+                            "subsections": [
+                                {
+                                    "section_name": "Provider Type",
+                                    "extracted_fields": [
+                                        {
+                                            "data_point_name": "provider_type",
+                                            "value": "Professional Services"
+                                        }
+                                    ],
+                                    "subsections": [
+                                        {
+                                            "section_name": "IP/OP",
+                                            "extracted_fields": [
+                                                {
+                                                    "data_point_name": "ip_op",
+                                                    "value": "OP"
+                                                }
+                                            ],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "Service Type",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "service_type",
+                                                            "value": "Drugs and Biologicals"
+                                                        }
+                                                    ],
+                                                    "subsections": [
+                                                        {
+                                                            "section_name": "Plan Type",
+                                                            "extracted_fields": [
+                                                                {
+                                                                    "data_point_name": "plan_type",
+                                                                    "value": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+                                                                }
+                                                            ],
+                                                            "subsections": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section_name": "Payment Fields",
+                                    "extracted_fields": [
+                                        {
+                                            "data_point_name": "lesser_of_logic_language_included",
+                                            "value": "Y"
+                                        },
+                                        {
+                                            "data_point_name": "lesser_of_rate",
+                                            "value": "100% of the Average Sales Price (ASP) plus 6%"
+                                        },
+                                        {
+                                            "data_point_name": "reimb_methodology",
+                                            "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts."
+                                        },
+                                        {
+                                            "data_point_name": "reimb_methodology_short",
+                                            "value": "ASP + 6%"
+                                        },
+                                        {
+                                            "data_point_name": "flat_fee",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "subsections": []
+                                }
+                            ]
+                        },
+                        {
+                            "section_name": "Professional Services",
+                            "extracted_fields": [],
+                            "subsections": [
+                                {
+                                    "section_name": "OP",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "Therapy Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "lesser_of_logic_language_included",
+                                                            "value": "Y",
+                                                            "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable, (a) for those Covered Services not included in the Service Categories in Table 1 below, 100% of the Medicare fee schedule in effect on the date of service, or (b) for those Covered Services included in the Service Categories in Table 1 below, the applicable 'Contracted Rate' set forth in Table 1 below.",
+                                                            "rationale": "The text explicitly states that the Allowed Amount is determined by the lesser of two conditions.",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services"
+                                                        },
+                                                        {
+                                                            "data_point_name": "lesser_of_rate",
+                                                            "value": "80% of the Medicare Rate in effect on the date of service.",
+                                                            "citation": "Physical, Occupational and Speech Therapy: 80% of the Medicare Rate in effect on the date of service.",
+                                                            "rationale": "This is the specific contracted rate for Therapy Services as listed in Table 1.",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services"
+                                                        },
+                                                        {
+                                                            "data_point_name": "reimb_methodology",
+                                                            "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                            "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                            "rationale": "This describes how the payment is calculated, including the deduction of cost-sharing amounts.",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services"
+                                                        },
+                                                        {
+                                                            "data_point_name": "reimb_methodology_short",
+                                                            "value": "80% MCR",
+                                                            "citation": "Physical, Occupational and Speech Therapy: 80% of the Medicare Rate in effect on the date of service.",
+                                                            "rationale": "This is a concise version of the reimbursement methodology for Therapy Services.",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services"
+                                                        },
+                                                        {
+                                                            "data_point_name": "flat_fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "No specific dollar amounts are mentioned in the document.",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services"
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section_name": "Laboratory Services",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                            "extracted_fields": [
+                                                {
+                                                    "data_point_name": "lesser_of_logic_language_included",
+                                                    "value": "Y",
+                                                    "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable, (a) for those Covered Services not included in the Service Categories in Table 1 below, 100% of the Medicare fee schedule in effect on the date of service, or (b) for those Covered Services included in the Service Categories in Table 1 below, the applicable 'Contracted Rate' set forth in Table 1 below.",
+                                                    "rationale": "The text explicitly states that the Allowed Amount is the lesser of Allowable Charges or specified rates, indicating the presence of 'lesser of' logic.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+                                                },
+                                                {
+                                                    "data_point_name": "lesser_of_rate",
+                                                    "value": "50% of the Medicare Rate in effect on the date of service.",
+                                                    "citation": "Laboratory Services | 50% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This is the specific contracted rate for Laboratory Services as listed in Table 1.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology",
+                                                    "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                    "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                    "rationale": "This describes how the payment is calculated, including the deduction of Cost-Sharing Amounts.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology_short",
+                                                    "value": "50% MCR",
+                                                    "citation": "Laboratory Services | 50% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This is a concise version of the reimbursement methodology for Laboratory Services.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+                                                },
+                                                {
+                                                    "data_point_name": "flat_fee",
+                                                    "value": "",
+                                                    "citation": "",
+                                                    "rationale": "No specific dollar amounts are mentioned in the document for a flat fee.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services"
+                                                }
+                                            ],
+                                            "subsections": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section_name": "Radiology Services",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                            "extracted_fields": [
+                                                {
+                                                    "data_point_name": "lesser_of_logic_language_included",
+                                                    "value": "Y",
+                                                    "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable, (a) for those Covered Services not included in the Service Categories in Table 1 below, 100% of the Medicare fee schedule in effect on the date of service, or (b) for those Covered Services included in the Service Categories in Table 1 below, the applicable 'Contracted Rate' set forth in Table 1 below.",
+                                                    "rationale": "The text explicitly states that the Allowed Amount is determined by the lesser of Allowable Charges or specified rates.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+                                                },
+                                                {
+                                                    "data_point_name": "lesser_of_rate",
+                                                    "value": "85% of the Medicare Rate for Radiology",
+                                                    "citation": "Radiology Services | 85% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This is the specific contracted rate for Radiology Services as listed in Table 1.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology",
+                                                    "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule. Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                    "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                                                    "rationale": "This text provides a comprehensive description of how reimbursement is calculated, including the deduction of Cost-Sharing Amounts.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology_short",
+                                                    "value": "85% MCR",
+                                                    "citation": "Radiology Services | 85% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This concise version summarizes the reimbursement methodology for Radiology Services.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+                                                },
+                                                {
+                                                    "data_point_name": "flat_fee",
+                                                    "value": "",
+                                                    "citation": "",
+                                                    "rationale": "No specific dollar amounts are mentioned in the provided text.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services"
+                                                }
+                                            ],
+                                            "subsections": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section_name": "DME Services",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                            "extracted_fields": [
+                                                {
+                                                    "data_point_name": "lesser_of_logic_language_included",
+                                                    "value": "Y",
+                                                    "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable...",
+                                                    "rationale": "The text explicitly states that the Allowed Amount is determined by the lesser of Allowable Charges or specified rates.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+                                                },
+                                                {
+                                                    "data_point_name": "lesser_of_rate",
+                                                    "value": "75% of the Medicare Rate in effect on the date of service.",
+                                                    "citation": "DME Services | 75% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This is the specific contracted rate for DME Services as listed in Table 1.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology",
+                                                    "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule. Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+                                                    "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+                                                    "rationale": "This describes the full payment calculation methodology including the deduction of Cost-Sharing Amounts.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+                                                },
+                                                {
+                                                    "data_point_name": "reimb_methodology_short",
+                                                    "value": "75% MCR",
+                                                    "citation": "DME Services | 75% of the Medicare Rate in effect on the date of service.",
+                                                    "rationale": "This is a concise version of the reimbursement methodology for DME Services.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+                                                },
+                                                {
+                                                    "data_point_name": "flat_fee",
+                                                    "value": "",
+                                                    "citation": "",
+                                                    "rationale": "No specific dollar amounts are mentioned in the document.",
+                                                    "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services"
+                                                }
+                                            ],
+                                            "subsections": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "section_name": "COMMERCIAL-EXCHANGE",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Professional Services",
+                            "extracted_fields": [],
+                            "subsections": [
+                                {
+                                    "section_name": "OP",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "Drugs and Biologicals",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "Commercial-Exchange Product",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "lesser_of_logic_language_included",
+                                                            "value": "Y",
+                                                            "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+                                                            "rationale": "The text explicitly states that the Allowed Amount is determined by the lesser of two options, indicating the presence of 'lesser of' logic.",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+                                                        },
+                                                        {
+                                                            "data_point_name": "lesser_of_rate",
+                                                            "value": "100% of the Payor's fee schedule",
+                                                            "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+                                                            "rationale": "The specific rate for the service type is defined as 100% of the Payor's fee schedule.",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+                                                        },
+                                                        {
+                                                            "data_point_name": "reimb_methodology",
+                                                            "value": "100% of the Average Sales Price (ASP) plus 6% for Drugs and Biologicals, or 100% of the Average Wholesale Cost (AWP) less 20% if not listed on the ASP fee schedule.",
+                                                            "citation": "the reimbursement for Drugs and Biologicals shall be 100% of the Average Sales Price (ASP) plus 6%. In the event the item is not listed on the ASP fee schedule, then the reimbursement shall be 100% of the Average Wholesale Cost (AWP) less twenty percent (20%).",
+                                                            "rationale": "This description provides a complete overview of how reimbursement is calculated for Drugs and Biologicals.",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+                                                        },
+                                                        {
+                                                            "data_point_name": "reimb_methodology_short",
+                                                            "value": "100% ASP + 6% or 100% AWP - 20%",
+                                                            "citation": "the reimbursement for Drugs and Biologicals shall be 100% of the Average Sales Price (ASP) plus 6%. In the event the item is not listed on the ASP fee schedule, then the reimbursement shall be 100% of the Average Wholesale Cost (AWP) less twenty percent (20%).",
+                                                            "rationale": "This concise version summarizes the reimbursement methodology for quick reference.",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+                                                        },
+                                                        {
+                                                            "data_point_name": "flat_fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "No specific dollar amounts are mentioned in the document for a flat fee.",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

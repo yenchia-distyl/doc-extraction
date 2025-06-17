@@ -1,0 +1,678 @@
+[
+  {
+    "chunk_name": "Attachment_A_Medicaid__PRODUCT ATTACHMENT.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Oklahoma Medicaid Product (SoonerSelect)",
+        "citation": "OKLAHOMA MEDICAID PRODUCT (SOONERSELECT)"
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "to provide Covered Services to Covered Persons in the State's Medicaid program known as SoonerSelect",
+        "citation": "Health Plan has contracted with the Oklahoma Health Care Authority ('OHCA') to be a State Medicaid Care Management Organization to provide Covered Services to Covered Persons in the State's Medicaid program known as SoonerSelect"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "health care services, supplies or accommodations (including Covered Services)",
+        "citation": "This Attachment applies only to the provision of health care services, supplies or accommodations (including Covered Services) to Covered Persons enrolled in the Medicaid Product."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "This Attachment applies only to the provision of health care services, supplies or accommodations (including Covered Services) to Covered Persons enrolled in the Medicaid Product."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "N",
+        "citation": "Nothing in this Attachment shall be construed as conferring any financial or legal liabilities of Payor under any Regulatory Requirements or the Payor Contract to Company or Health Plan."
+      }
+    ]
+  },
+  {
+    "chunk_name": "ARTICLE_I_-_DEFINITIONS.md",
+    "extracted_fields": []
+  },
+  {
+    "chunk_name": "PARTICIPATING_PROVIDER_AGREEMENT__SCHEDULE C.md",
+    "extracted_fields": []
+  },
+  {
+    "chunk_name": "Attachment_A_Medicaid__SCHEDULE A-2.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Specialty Program",
+        "citation": "This Schedule A-2 sets forth certain provisions specific to the Oklahoma SoonerSelect Children's Specialty Program (\"Specialty Program\")."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "current Medicaid rate",
+        "citation": "Targeted Case Management (TCM) services shall be reimbursed at the current Medicaid rate;"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Behavioral Health Crisis Services",
+        "citation": "Providers of Behavioral Health Crisis Services shall cooperate and comply with Health Plan's policies and procedures to ensure..."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP",
+        "citation": "Medically Necessary Covered Services provided in the Specialty Plan must be furnished in a manner that: a. Is no more restrictive than that used in the Oklahoma Medicaid program..."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "Provider shall familiarize itself with all Covered Benefits provided under the State Contract and, where applicable to Provider, shall comply therewith."
+      }
+    ]
+  },
+  {
+    "chunk_name": "ARTICLE_III_-_CLAIMS_SUBMISSION,_PROCESSING,_AND_COMPENSATION.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "reimb methodology",
+        "value": "the appropriate amount under the applicable Compensation Schedule in effect on the date of service",
+        "citation": "The compensation for Covered Services provided to a Covered Person ('Compensation Amount') will be the appropriate amount under the applicable Compensation Schedule in effect on the date of service for the Product in which the Covered Person participates."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "Contracted Providers shall submit to Payor or its delegate claims for payment for Covered Services rendered to Covered Persons."
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility",
+        "citation": "Payor shall pay or arrange for payment of each Clean Claim received from a Contracted Provider for Covered Services provided to a Covered Person in accordance with the applicable Compensation Amount less any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "This provision shall not prohibit collection of any applicable copayments, cost-sharing or other amounts that are the Covered Person's financial responsibility under the applicable Coverage Agreement."
+      }
+    ]
+  },
+  {
+    "chunk_name": "PARTICIPATING_PROVIDER_AGREEMENT__SCHEDULE B.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "service type",
+        "value": "Medicaid",
+        "citation": "Attachment A: Medicaid"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Medicare",
+        "citation": "Attachment B: Medicare"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Commercial-Exchange",
+        "citation": "Attachment C: Commercial-Exchange"
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "N",
+        "citation": "Provider will be designated as a 'Participating Provider' in the Product Attachments listed below as of the date of successful completion of credentialing in accordance with this Agreement."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_B_Medicare__SCHEDULE A.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Medicare Product Attachment",
+        "citation": "This schedule sets forth required provisions that are applicable to all Medicare Product Types under this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Payor shall pay, or arrange to pay, Provider for Covered Services rendered to Covered Persons in accordance with the Compensation Schedule(s) to this Medicare Product Attachment.",
+        "citation": "Payor shall pay, or arrange to pay, Provider for Covered Services rendered to Covered Persons in accordance with the Compensation Schedule(s) to this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "Provider shall furnish Covered Services to Covered Persons as set forth in the Agreement and this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "Provider shall furnish Covered Services to Covered Persons as set forth in the Agreement and this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "85% of the Medicare Rate in effect on the date of service.",
+        "citation": "| Radiology Services | 85% of the Medicare Rate in effect on the date of service. |"
+      },
+      {
+        "data_point_name": "flat fee",
+        "value": "100% of the Average Sales Price (ASP) plus 6%",
+        "citation": "| Drugs and Biologicals | 100% of the Average Sales Price (ASP) plus 6% |"
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Provider",
+        "citation": "Provider shall furnish Covered Services to Covered Persons as set forth in the Agreement and this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "Provider agrees that HHS, the Comptroller General or their designees have the right to audit evaluate, collect and inspect any books, contracts, computer or other electronic systems, including medical records and documentation of Provider relating to the CMS Contract through 10 years from the termination date of this Medicare Product Attachment or from the date of Completion of Audit, whichever is later."
+      }
+    ]
+  },
+  {
+    "chunk_name": "ARTICLE_VI_-_DISPUTE_RESOLUTION.md",
+    "extracted_fields": []
+  },
+  {
+    "chunk_name": "ARTICLE_IV_-_RECORDS_AND_INSPECTIONS.md",
+    "extracted_fields": []
+  },
+  {
+    "chunk_name": "ARTICLE_II_-_PRODUCTS_AND_SERVICES.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Participating Provider",
+        "citation": "each Contracted Provider may be identified as a Participating Provider in each Product identified in a Product Attachment"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "Each Contracted Provider shall provide Covered Services described or referenced in the applicable Product Attachment(s) to Covered Persons"
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "Provider and Contracted Providers shall at all times cooperate and comply with the requirements, policies, programs and procedures"
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Compensation Schedule",
+        "citation": "Company or Payor, as applicable, will provide advance written notice (electronic or paper) thereof to Provider, along with the applicable Product Attachment and the new Compensation Schedule"
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "Provider shall maintain written agreements with each of its Contracted Providers (other than Provider) that require the Contracted Providers to comply with the terms and conditions of this Agreement"
+      }
+    ]
+  },
+  {
+    "chunk_name": "PARTICIPATING_PROVIDER_AGREEMENT__This Participating Provider Ag.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Participating Provider Agreement",
+        "citation": "This Participating Provider Agreement (together with all Attachments and amendments, this \"Agreement\")"
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Provider",
+        "citation": "is made and entered by and between MEMORIAL HEALTH GROUP PLLC (\"Provider\")"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "health care services",
+        "citation": "Provider desires to provide certain health care services to individuals in products offered by or available from or through a Company or Payor"
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "Provider desires to provide certain health care services to individuals in products offered by or available from or through a Company or Payor"
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_C_Commercial-Exchange__SCHEDULE A.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Commercial-Exchange",
+        "citation": "Attachment C: Commercial-Exchange"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "the lesser of billed charges or a fee schedule",
+        "citation": "the provider will be paid the lesser of billed charges or a fee schedule"
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Provider shall comply with the requirements of applicable Oklahoma law",
+        "citation": "Provider shall comply with the requirements of applicable Oklahoma law"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "the rendering of Covered Services to a Covered Person"
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP",
+        "citation": "Covered Persons confined on the date of insolvency in an inpatient facility"
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "the provider will be paid the lesser of billed charges or a fee schedule"
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_B_Medicare__MEDICARE PRODUCT ATTACHMENT.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Medicare Product",
+        "citation": "This Attachment addresses the participation of Provider and the applicable Contracted Providers in the following Product: Medicare Product (which is sometimes referred to in this Attachment as 'Product')."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "This Attachment applies only to the provision of health care services, supplies or accommodations (including Covered Services) to Covered Persons enrolled in the Medicare Product."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP",
+        "citation": "Provider acknowledges that it will participate in each Medicare Product Type for which a Compensation Schedule(s) is attached to this Medicare Product Attachment."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "subject to all of the other provisions in the Agreement (including the Provider Manual) that affect or relate to compensation for Covered Services provided to Covered Persons.",
+        "citation": "the compensation hereunder for the provision of Covered Services by Contracted Providers to Covered Persons enrolled in the Medicare Product is subject to all of the other provisions in the Agreement (including the Provider Manual) that affect or relate to compensation for Covered Services provided to Covered Persons."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_A_Medicaid__SCHEDULE B.md",
+    "extracted_fields": []
+  },
+  {
+    "chunk_name": "ARTICLE_VIII_-_MISCELLANEOUS.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Health Plan",
+        "citation": "The relationship between or among Health Plan, Company, Provider, Payor and any Contracted Provider hereunder is that of independent contractors."
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "MEMORIAL HEALTH GROUP PLLC",
+        "citation": "PROVIDER: MEMORIAL HEALTH GROUP PLLC (Legibly Print Name of Provider)"
+      },
+      {
+        "data_point_name": "effective date",
+        "value": "Jul 19, 2023",
+        "citation": "Effective Date: Jul 19, 2023"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "92-3633257",
+        "citation": "Tax Identification Number: 92-3633257"
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "This Agreement is entered into by the Parties signing it for their benefit, as well as, in the case of Health Plan, the benefit of Company, and in the case of Provider, the benefit of each Contracted Provider."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Provider shall not disclose such information to any person or entity without Health Plan's express written consent.",
+        "citation": "Provider acknowledges and agrees that all information relating to Company's programs, policies, protocols and procedures is proprietary information and Provider shall not disclose such information to any person or entity without Health Plan's express written consent."
+      }
+    ]
+  },
+  {
+    "chunk_name": "ARTICLE_VII_-_TERM_AND_TERMINATION.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Participating Provider",
+        "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "180 days",
+        "citation": "either Party gives the other Party written notice of non-renewal of this Agreement not less than 180 days prior to the end of the then-current term"
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "continue to provide Covered Services to Covered Persons",
+        "citation": "each affected Contracted Provider (including Provider, if applicable) shall continue to provide, as a Participating Provider, Covered Services to Covered Persons"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "continue to provide Covered Services to Covered Persons"
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP",
+        "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products"
+      },
+      {
+        "data_point_name": "flat fee",
+        "value": "90 days",
+        "citation": "continue to provide Covered Services to Covered Persons in the applicable Product(s) during the longer of the 90 day period following the date of such termination"
+      },
+      {
+        "data_point_name": "reimb methodology short",
+        "value": "Written Notice",
+        "citation": "This Agreement may be terminated by either Party giving the other Party at least 180 days prior written notice of such termination"
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Contracted Provider",
+        "citation": "the participation of Provider or a Contracted Provider as a Participating Provider"
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "the participation of Provider or a Contracted Provider as a Participating Provider in one or more Products"
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_A_Medicaid__SCHEDULE A-1.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Days",
+        "value": "Calendar Days unless otherwise specified.",
+        "citation": "Days - Calendar Days unless otherwise specified."
+      },
+      {
+        "data_point_name": "Program",
+        "value": "Disenrollment - The removal of a Covered Person from participation in the SoonerSelect.",
+        "citation": "Disenrollment - The removal of a Covered Person from participation in the SoonerSelect Program."
+      },
+      {
+        "data_point_name": "Dual Eligible Individuals",
+        "value": "individuals eligible for both Medicaid and Medicare.",
+        "citation": "Dual Eligible Individuals - individuals eligible for both Medicaid and Medicare."
+      },
+      {
+        "data_point_name": "Emergency Medical Condition",
+        "value": "A medical condition, including injury, manifesting itself by acute symptoms of sufficient severity, including severe pain, that a prudent layperson who possesses an average knowledge of health and medicine could reasonably expect the absence of immediate medical attention to result in placing the individual's health, or the health of an unborn child, in serious jeopardy, serious impairment to bodily functions or serious dysfunction of any bodily organs or parts.",
+        "citation": "Emergency Medical Condition - A medical condition, including injury, manifesting itself by acute symptoms of sufficient severity, including severe pain, that a prudent layperson who possesses an average knowledge of health and medicine could reasonably expect the absence of immediate medical attention to result in placing the individual's health, or the health of an unborn child, in serious jeopardy, serious impairment to bodily functions or serious dysfunction of any bodily organs or parts."
+      },
+      {
+        "data_point_name": "Emergency Services",
+        "value": "Covered Services that are furnished by a Provider qualified to furnish such services and needed to evaluate, treat, or stabilize an Emergency Medical Condition in the emergency room, hospital, or other inpatient setting.",
+        "citation": "Emergency Services - Covered Services that are furnished by a Provider qualified to furnish such services and needed to evaluate, treat, or stabilize an Emergency Medical Condition in the emergency room, hospital, or other inpatient setting."
+      },
+      {
+        "data_point_name": "Encounter Data",
+        "value": "Information relating to the receipt of any item(s) or service(s) by a Covered Person under the Agreement that is subject to the requirements of 42 C.F.R. \u00a7\u00a7 438.242 and 438.818.",
+        "citation": "Encounter Data - Information relating to the receipt of any item(s) or service(s) by a Covered Person under the Agreement that is subject to the requirements of 42 C.F.R. \u00a7\u00a7 438.242 and 438.818."
+      },
+      {
+        "data_point_name": "Grievance",
+        "value": "A Covered Person expression of dissatisfaction about any matter other than an Adverse Benefit Determination.",
+        "citation": "Grievance - A Covered Person expression of dissatisfaction about any matter other than an Adverse Benefit Determination."
+      },
+      {
+        "data_point_name": "Grievance and Appeal System",
+        "value": "The processes the Company implements to handle Covered Person Grievance and Appeal of Adverse Benefit Determinations, as well as the processes to collect and track information about them.",
+        "citation": "Grievance and Appeal System - The processes the Company implements to handle Covered Person Grievance and Appeal of Adverse Benefit Determinations, as well as the processes to collect and track information about them."
+      },
+      {
+        "data_point_name": "Rural Area",
+        "value": "A county with a population of less than 50,000 people.",
+        "citation": "Rural Area - A county with a population of less than 50,000 people."
+      },
+      {
+        "data_point_name": "SoonerCare",
+        "value": "The Oklahoma Medicaid program.",
+        "citation": "SoonerCare - The Oklahoma Medicaid program."
+      },
+      {
+        "data_point_name": "SoonerSelect Program",
+        "value": "For purposes of this Schedule A-1, the Medicaid and CHIP Program.",
+        "citation": "SoonerSelect Program - For purposes of this Schedule A-1, the Medicaid and CHIP Program."
+      },
+      {
+        "data_point_name": "State",
+        "value": "When not otherwise specified, refers to a government entity or entities within the State of Oklahoma.",
+        "citation": "State - When not otherwise specified, refers to a government entity or entities within the State of Oklahoma."
+      },
+      {
+        "data_point_name": "State Plan",
+        "value": "An agreement between OHCA and CMS describing how Oklahoma administers its Medicaid and CHIP programs.",
+        "citation": "State Plan - An agreement between OHCA and CMS describing how Oklahoma administers its Medicaid and CHIP programs."
+      },
+      {
+        "data_point_name": "State Fair Hearing",
+        "value": "The process set forth in Subpart E of 42 C.F.R. Part 431.",
+        "citation": "State Fair Hearing - The process set forth in Subpart E of 42 C.F.R. Part 431."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_C_Commercial-Exchange__PRODUCT ATTACHMENT.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Commercial-Exchange Product",
+        "citation": "\"Commercial-Exchange Product\" refers to those programs and health benefit arrangements offered by a Company that provide incentives to Covered Persons to utilize the services of certain contracted providers."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "health care services, supplies or accommodations",
+        "citation": "This Product Attachment applies with respect to the provision of health care services, supplies or accommodations (including Covered Services) to Covered Persons enrolled in or covered by a Commercial-Exchange Product."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "This Product Attachment applies with respect to the provision of health care services, supplies or accommodations (including Covered Services) to Covered Persons enrolled in or covered by a Commercial-Exchange Product."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "N",
+        "citation": "Except as modified or supplemented by this Product Attachment, the compensation hereunder for the provision of Covered Services by Contracted Providers to Covered Persons enrolled in or covered by the Commercial-Exchange Product is subject to all of the other provisions in the Agreement."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_A_Medicaid__EXHIBIT 1.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Medicaid",
+        "citation": "Attachment A: Medicaid"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "100% of the Payor's Medicaid fee schedule",
+        "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+        "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "professional Covered Services",
+        "citation": "The maximum compensation for professional Covered Services rendered to a Covered Person shall be the 'Allowed Amount.'"
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP",
+        "citation": "This compensation schedule ('Compensation Schedule') sets forth the maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Medicaid Product."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule."
+      }
+    ]
+  },
+  {
+    "chunk_name": "PARTICIPATING_PROVIDER_AGREEMENT__SCHEDULE A.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Medicaid",
+        "citation": "| Attachment A: | Medicaid |"
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Emergency Care",
+        "citation": "Each Hospital shall provide Emergency Care (as hereafter defined) in accordance with Regulatory Requirements."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "IP/OP",
+        "citation": "\"Emergency Care\" means inpatient and/or outpatient Covered Services furnished by a qualified provider that are needed to evaluate or stabilize an Emergency Medical Condition."
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Hospital",
+        "citation": "If Provider or a Contracted Provider is a hospital (\"Hospital\"), the following provisions apply."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "N",
+        "citation": "No payment shall be made to the Provider unless the Provider has strictly conformed to the policies and procedures of the HCBS Waiver Program."
+      }
+    ]
+  },
+  {
+    "chunk_name": "ARTICLE_V_-_INSURANCE_AND_INDEMNIFICATION.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Health Plan",
+        "citation": "Insurance shall be through a licensed carrier acceptable to Health Plan",
+        "rationale": "The term 'Health Plan' indicates the type of plan involved in the agreement."
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "$1,000,000 per occurrence, and $3,000,000 in the aggregate",
+        "citation": "in a minimum amount of $1,000,000 per occurrence, and $3,000,000 in the aggregate unless a lesser amount is accepted by Health Plan",
+        "rationale": "This specifies the benchmark rate for insurance coverage."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "indemnify and hold harmless",
+        "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+        "rationale": "This describes the reimbursement methodology related to indemnification."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "general and professional liability insurance",
+        "citation": "shall maintain policies of general and professional liability insurance",
+        "rationale": "This indicates the types of services covered under the insurance."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "both",
+        "citation": "Provider and/or each Contracted Provider shall maintain policies",
+        "rationale": "The language suggests coverage for both inpatient and outpatient services."
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Provider and Contracted Provider",
+        "citation": "Provider and each Contracted Provider shall indemnify and hold harmless",
+        "rationale": "This indicates the types of providers involved in the agreement."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "Commercial-Exchange",
+        "citation": "Attachment C: Commercial-Exchange"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "100% of the Payor's fee schedule",
+        "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule."
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+        "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Commercial-Exchange Product."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "This compensation schedule ('Compensation Schedule') sets forth the maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Commercial-Exchange Product."
+      },
+      {
+        "data_point_name": "flat fee",
+        "value": "30% of Allowable Charges",
+        "citation": "the maximum compensation shall be thirty percent (30%) of Allowable Charges."
+      },
+      {
+        "data_point_name": "reimb methodology short",
+        "value": "100% of ASP plus 6%",
+        "citation": "the reimbursement for Drugs and Biologicals shall be 100% of the Average Sales Price (ASP) plus 6%."
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Contracted Providers",
+        "citation": "maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Commercial-Exchange Product."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule."
+      }
+    ]
+  },
+  {
+    "chunk_name": "Attachment_B_Medicare__EXHIBIT 1.md",
+    "extracted_fields": [
+      {
+        "data_point_name": "Plan Type",
+        "value": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+        "citation": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      {
+        "data_point_name": "lesser of rate",
+        "value": "100% of the Medicare fee schedule in effect on the date of service",
+        "citation": "for those Covered Services not included in the Service Categories in Table 1 below, 100% of the Medicare fee schedule in effect on the date of service"
+      },
+      {
+        "data_point_name": "reimb methodology",
+        "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule.",
+        "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule."
+      },
+      {
+        "data_point_name": "service type",
+        "value": "Covered Services",
+        "citation": "maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Medicare Product."
+      },
+      {
+        "data_point_name": "ip/op",
+        "value": "Both",
+        "citation": "This compensation schedule ('Compensation Schedule') sets forth the maximum reimbursement amounts for Covered Services provided by Contracted Providers to Covered Persons enrolled in a Medicare Product."
+      },
+      {
+        "data_point_name": "flat fee",
+        "value": "30% of Allowable Charges",
+        "citation": "the maximum compensation shall be 30% of Allowable Charges."
+      },
+      {
+        "data_point_name": "provider type",
+        "value": "Contracted Provider",
+        "citation": "Services must be provided by the appropriate provider type or specialty as defined in the Provider Manual."
+      },
+      {
+        "data_point_name": "lesser of logic language included (y/n)",
+        "value": "Y",
+        "citation": "the lesser of: (i) Allowable Charges; or (ii) as applicable"
+      }
+    ]
+  }
+]

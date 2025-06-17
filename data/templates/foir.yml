@@ -1,0 +1,20 @@
+types:
+  ExtractedData:
+    properties:
+      dataPointName: string
+      value: string
+      citation: string
+      rationale: string
+      documentName: string
+
+  ExtractedField:
+    extends: ExtractedData
+    properties:
+      history: list<ExtractedData>
+      subfields: optional<list<ExtractedField>>
+      metadata: optional<map<string, string>>
+
+  FinalOutputIntermediateRepresentation:
+    properties:
+      sections: map<string, list<ExtractedField>>
+      metadata: optional<map<string, string>>

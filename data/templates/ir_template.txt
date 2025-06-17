@@ -1,0 +1,47 @@
+The following is the Intermediate Representation Template format, referred to as the ir_template.
+
+If the value is surrounded by enclosed angle brackets you MUST ignore that field.
+
+This is is the python definition of the object. All extractions should be as a JSON that can be instantiated by this class.
+
+class IRDataPoint:
+    # The name of the field
+    data_point_name: str
+    # Define the field
+    description: str
+    related_routine_steps: List[str]
+    # Describe what the field is used for
+    rationale: str
+    # Give a process to extract the field
+    extraction_instructions: str
+    # Concrete examples of the field
+    examples: List[str]
+
+
+Example Valid Formatting:
+[
+    {
+        "data_point_name": "health plan state",
+        "description": "The U.S. state in which the health plan is authorized to operate and administer services under the agreement.",
+        "related_routine_steps": [],
+        "rationale": "<an expolanation of what this field is used for",
+        "extraction_instructions": "<the field routine goes here>",
+        "examples": "Illinois, Oregon, California"
+    },
+    {
+        "data_point_name": "termination date",
+        "description": "The specific end date of the agreement if provided in the contract.",
+        "related_routine_steps": [],
+        "rationale": "<an expolanation of what this field is used for",
+        "extraction_instructions": "<the field routine goes here>",
+        "examples": "12/31/2015, 12/31/2017, 12/31/2020"
+    },
+    {
+        "data_point_name": "termination upon notice days",
+        "description": "The number of days' notice required for either party to terminate the agreement without cause.",
+        "related_routine_steps": [],
+        "rationale": "<an expolanation of what this field is used for",
+        "extraction_instructions": "<the field routine goes here>",
+        "examples": "180.0, 90.0, 60.0"
+    }
+]

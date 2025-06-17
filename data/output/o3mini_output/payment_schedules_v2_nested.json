@@ -1,0 +1,437 @@
+{
+    "sections": [
+        {
+            "section_name": "Main Contract Details",
+            "extracted_fields": [
+                {
+                    "data_point_name": "Contract Name",
+                    "value": "Provider Agreement",
+                    "citation": "This document contains provider agreement payment schedules",
+                    "rationale": "Default contract name for payment schedules",
+                    "document_name": "Payment Schedules",
+                    "history": []
+                }
+            ],
+            "subsections": [
+                {
+                    "section_name": "Medicaid",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Professional Services",
+                            "extracted_fields": [],
+                            "subsections": [
+                                {
+                                    "section_name": "OP",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "Covered Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "Medicaid Product",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "section_name": "Medicare",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Professional Services",
+                            "extracted_fields": [],
+                            "subsections": [
+                                {
+                                    "section_name": "OP",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "DME Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - DME Services",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section_name": "Radiology Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Radiology Services",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section_name": "Drugs and Biologicals",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section_name": "Therapy Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Therapy Services",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section_name": "Laboratory Services",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "MA PLAN/MA-PD PLAN/DSNP PLAN",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Laboratory Services",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "section_name": "Commercial-Exchange",
+                    "extracted_fields": [],
+                    "subsections": [
+                        {
+                            "section_name": "Professional Services",
+                            "extracted_fields": [],
+                            "subsections": [
+                                {
+                                    "section_name": "OP",
+                                    "extracted_fields": [],
+                                    "subsections": [
+                                        {
+                                            "section_name": "Drugs and Biologicals",
+                                            "extracted_fields": [],
+                                            "subsections": [
+                                                {
+                                                    "section_name": "Commercial-Exchange Product",
+                                                    "extracted_fields": [
+                                                        {
+                                                            "data_point_name": "Lesser of Logic Language included (Y/N)",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Lesser of Rate",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Reimb Methodology short",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        },
+                                                        {
+                                                            "data_point_name": "Flat Fee",
+                                                            "value": "",
+                                                            "citation": "",
+                                                            "rationale": "",
+                                                            "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals",
+                                                            "history": []
+                                                        }
+                                                    ],
+                                                    "subsections": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

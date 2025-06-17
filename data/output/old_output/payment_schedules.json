@@ -1,0 +1,558 @@
+{
+  "extraction_date": "2025-05-30T16:33:31.972855",
+  "document_name": "data/example_document.md",
+  "payment_schedules": [
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "DME Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Facility Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The phrase 'the lesser of' indicates that the contract includes lesser of logic.",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule",
+          "citation": "100% of the Payor's Medicaid fee schedule.",
+          "rationale": "This is the specific rate mentioned in the lesser-of clause.",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This describes how payment is calculated based on the Allowed Amount and Cost-Sharing Amounts.",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount less Cost-Sharing",
+          "citation": "",
+          "rationale": "This is a concise version of the reimbursement methodology.",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicare Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Radiology Services",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable...",
+          "rationale": "The phrase 'the lesser of' indicates that the contract includes lesser of logic.",
+          "document_name": "example_document.md - MEDICARE - MA PLAN/MA-PD PLAN/DSNP PLAN"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Medicare fee schedule",
+          "citation": "100% of the Medicare fee schedule in effect on the date of service",
+          "rationale": "This is the specific rate mentioned in the lesser-of clause for services not included in Table 1.",
+          "document_name": "example_document.md - MEDICARE - MA PLAN/MA-PD PLAN/DSNP PLAN"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This describes how payment is calculated based on the Allowed Amount and Cost-Sharing.",
+          "document_name": "example_document.md - MEDICARE - MA PLAN/MA-PD PLAN/DSNP PLAN"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount less Cost-Sharing",
+          "citation": "",
+          "rationale": "This is a concise version of the reimbursement methodology.",
+          "document_name": "example_document.md - MEDICARE - MA PLAN/MA-PD PLAN/DSNP PLAN"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - MA PLAN/MA-PD PLAN/DSNP PLAN"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICAID - Medicaid Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Facility Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Drugs and Biologicals",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+          "rationale": "The phrase 'the lesser of' indicates that the contract includes lesser of logic.",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's fee schedule",
+          "citation": "the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.",
+          "rationale": "This is the specific rate mentioned in the lesser-of clause.",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This describes how payment is calculated based on the Allowed Amount and Cost-Sharing Amounts.",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount less Cost-Sharing",
+          "citation": "",
+          "rationale": "This is a concise version of the reimbursement methodology.",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - COMMERCIAL-EXCHANGE - Commercial-Exchange Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicare Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "$1.20",
+          "citation": "(State Contract $1.20.11.6)",
+          "rationale": "The document explicitly mentions a flat fee of $1.20 in the context of the contract.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        }
+      ]
+    },
+    {
+      "hierarchy": {
+        "line_of_business": "MEDICARE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicare Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii) as applicable...",
+          "rationale": "The text explicitly states that the Allowed Amount is determined by the lesser of two options, indicating the presence of lesser of logic.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Medicare fee schedule",
+          "citation": "100% of the Medicare fee schedule in effect on the date of service",
+          "rationale": "This value is directly quoted from the document as part of the lesser of clause for Covered Services not included in the Service Categories.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This sentence provides a full description of how payment is calculated based on the Allowed Amount and Cost-Sharing.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount less Cost-Sharing",
+          "citation": "",
+          "rationale": "This is a concise version of the reimbursement methodology derived from the longer description.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific dollar amounts are mentioned in the provided text.",
+          "document_name": "example_document.md - MEDICARE - Medicare Product"
+        }
+      ]
+    }
+  ]
+}

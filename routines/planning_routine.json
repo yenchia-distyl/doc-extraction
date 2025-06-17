@@ -1,0 +1,260 @@
+[
+    {
+      "id": 1,
+      "name": "ARTICLE I - DEFINITIONS",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 2,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ARTICLE II - PRODUCTS AND SERVICES",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 3,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ARTICLE III - CLAIMS SUBMISSION, PROCESSING, AND COMPENSATION",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 4,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ARTICLE IV - RECORDS AND INSPECTIONS",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 5,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ARTICLE V - INSURANCE AND INDEMNIFICATION",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 6,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ARTICLE VI - DISPUTE RESOLUTION",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 7,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ARTICLE VII - TERM AND TERMINATION",
+      "description": "Termination Upon Notice Days, Termination With Cause Days",
+      "next_steps": [
+        {
+          "step_id": 8,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ARTICLE VIII - MISCELLANEOUS",
+      "description": "Contract Effective Date, Health Plan State, IRS Num, IRS Name",
+      "next_steps": [
+        {
+          "step_id": 9,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SCHEDULE A - CONTRACTED PROVIDER-SPECIFIC PROVISIONS",
+      "description": "Provider Type, Provider Type Level 2",
+      "next_steps": [
+        {
+          "step_id": 10,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SCHEDULE B - PRODUCT PARTICIPATION",
+      "description": "Plan Type",
+      "next_steps": [
+        {
+          "step_id": 11,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "SCHEDULE C - INFORMATION FOR CONTRACTED PROVIDERS",
+      "description": "",
+      "next_steps": [
+        {
+          "step_id": 12,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Attachment A: Medicaid – PRODUCT ATTACHMENT",
+      "description": "Provider Type, Service Type, Plan Type",
+      "next_steps": [
+        {
+          "step_id": 13,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Attachment A: Medicaid – SCHEDULE A-1 GOVERNMENTAL CONTRACT REQUIREMENTS",
+      "description": "Provider Type, Service Type, Plan Type",
+      "next_steps": [
+        {
+          "step_id": 14,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Attachment A: Medicaid – SCHEDULE A-2 GOVERNMENTAL CONTRACT REQUIREMENTS",
+      "description": "Provider Type, Service Type, Plan Type, Lesser of Logic Language included (Y/N), Lesser of Rate, Reimb Methodology, Reimb Methodology short",
+      "next_steps": [
+        {
+          "step_id": 15,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Attachment A: Medicaid – SCHEDULE B REGULATORY REQUIREMENTS",
+      "description": "Plan Type, Lesser of Logic Language included (Y/N)",
+      "next_steps": [
+        {
+          "step_id": 16,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Attachment A: Medicaid – EXHIBIT 1 COMPENSATION SCHEDULE",
+      "description": "Lesser of Logic Language included (Y/N), Lesser of Rate, Reimb Methodology, Reimb Methodology short, Flat Fee",
+      "next_steps": [
+        {
+          "step_id": 17,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Attachment B: Medicare – PRODUCT ATTACHMENT",
+      "description": "Provider Type, Plan Type",
+      "next_steps": [
+        {
+          "step_id": 18,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Attachment B: Medicare – SCHEDULE A CMS REGULATORY REQUIREMENTS",
+      "description": "Provider Type, IP/OP",
+      "next_steps": [
+        {
+          "step_id": 19,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Attachment B: Medicare – EXHIBIT 1 COMPENSATION SCHEDULE",
+      "description": "Service Type, Lesser of Logic Language included (Y/N), Lesser of Rate, Reimb Methodology, Reimb Methodology short, If rate is percent of Payer or MCR - Standard, If rate is percent of Payer or MCR - Standard Short, Flat Fee",
+      "next_steps": [
+        {
+          "step_id": 20,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Attachment C: Commercial-Exchange – PRODUCT ATTACHMENT",
+      "description": "Provider Type, Service Type, Plan Type",
+      "next_steps": [
+        {
+          "step_id": 21,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Attachment C: Commercial-Exchange – SCHEDULE A REGULATORY REQUIREMENTS",
+      "description": "Provider Type, Lesser of Logic Language included (Y/N)",
+      "next_steps": [
+        {
+          "step_id": 22,
+          "criteria": "",
+          "logic_type": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Attachment C: Commercial-Exchange – EXHIBIT 1 COMPENSATION SCHEDULE",
+      "description": "Lesser of Logic Language included (Y/N), Lesser of Rate, Reimb Methodology, Reimb Methodology short, Flat Fee",
+      "next_steps": []
+    }
+  ]

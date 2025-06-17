@@ -1,0 +1,819 @@
+[
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Health Plan State",
+          "description": "Definition: The U.S. state in which the health plan is authorized to operate and administer services under the agreement.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Health Plan State located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Health Plan State NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Look for the contract heading, introductory paragraphs, or party descriptions for a reference to a specific state. Extract the named state (e.g., Illinois).",
+            "expanded_step_policies": "Typically appears in the opening recital, title block, or within the section listing the parties and their jurisdictions."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Health Plan State Found",
+          "description": "Final decision if Health Plan State is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Health Plan State."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Health Plan State Not Found",
+          "description": "Final decision if Health Plan State is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Health Plan State."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Termination Date",
+          "description": "Definition: The specific end date of the agreement if provided in the contract.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Termination Date located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Termination Date NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Search the signature page or 'Term' section for a defined end date. Extract the date if present, otherwise leave blank.",
+            "expanded_step_policies": "Commonly found in a subsection titled 'Term' or on the contract’s signature/cover page."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Termination Date Found",
+          "description": "Final decision if Termination Date is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Termination Date."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Termination Date Not Found",
+          "description": "Final decision if Termination Date is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Termination Date."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Termination Upon Notice Days",
+          "description": "Definition: The number of days’ notice required for either party to terminate the agreement without cause.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Termination Upon Notice Days located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Termination Upon Notice Days NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Look under 'Termination without Cause' or similar headings. Extract the stated number of days’ notice required (e.g., 90 days).",
+            "expanded_step_policies": "Usually appears within the Termination section, often labelled 'Termination Without Cause' or 'Termination Upon Notice'."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Termination Upon Notice Days Found",
+          "description": "Final decision if Termination Upon Notice Days is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Termination Upon Notice Days."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Termination Upon Notice Days Not Found",
+          "description": "Final decision if Termination Upon Notice Days is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Termination Upon Notice Days."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Termination With Cause Days",
+          "description": "Definition: The number of days of advance notice required to terminate the contract for cause, typically due to a material breach.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Termination With Cause Days located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Termination With Cause Days NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Locate the 'Termination for Cause' clause. Extract the number of days of advance written notice specified (e.g., 60 days).",
+            "expanded_step_policies": "Found in a paragraph usually titled 'Termination for Cause' or 'Termination Due to Breach'."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Termination With Cause Days Found",
+          "description": "Final decision if Termination With Cause Days is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Termination With Cause Days."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Termination With Cause Days Not Found",
+          "description": "Final decision if Termination With Cause Days is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Termination With Cause Days."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Contract Effective Date",
+          "description": "Definition: The official start date when the agreement becomes binding and enforceable between the payer and provider.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Contract Effective Date located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Contract Effective Date NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Locate the section labeled 'Term', 'Effective Date', or the contract top sheet. Extract the full date when the agreement is stated to begin, typically written as 'effective as of' or similar language.",
+            "expanded_step_policies": "Usually in the introductory paragraph, recital, or immediately before the signatures."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Contract Effective Date Found",
+          "description": "Final decision if Contract Effective Date is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Contract Effective Date."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Contract Effective Date Not Found",
+          "description": "Final decision if Contract Effective Date is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Contract Effective Date."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "IRS Num",
+          "description": "Definition: The provider organization’s federal Employer Identification Number (EIN) or Tax Identification Number (TIN).",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "IRS Num located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "IRS Num NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Look in administrative forms such as the W-9 or contract top sheet. Extract the 9-digit number listed as the EIN or TIN.",
+            "expanded_step_policies": "Typically appears on a W-9 form attachment or within the provider information section."
+          }
+        },
+        {
+          "id": 2,
+          "name": "IRS Num Found",
+          "description": "Final decision if IRS Num is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding IRS Num."
+          }
+        },
+        {
+          "id": 3,
+          "name": "IRS Num Not Found",
+          "description": "Final decision if IRS Num is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding IRS Num."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "IRS Name",
+          "description": "Definition: The legal name of the provider organization associated with the IRS number.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "IRS Name located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "IRS Name NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Identify the name listed next to the EIN or TIN on the W-9 or administrative pages. Extract the exact name provided to the IRS.",
+            "expanded_step_policies": "Often appears directly above or to the left of the EIN/TIN field on a W-9."
+          }
+        },
+        {
+          "id": 2,
+          "name": "IRS Name Found",
+          "description": "Final decision if IRS Name is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding IRS Name."
+          }
+        },
+        {
+          "id": 3,
+          "name": "IRS Name Not Found",
+          "description": "Final decision if IRS Name is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding IRS Name."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Line of Business",
+          "description": "Definition: The specific insurance line or payer program the contract applies to, such as Medicaid, Medicare, or Commercial.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Line of Business located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Line of Business NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Locate the top sheet, contract title, or attachments for references to payer lines like 'Medicaid', 'Medicare Advantage', etc. Extract the stated program.",
+            "expanded_step_policies": "Often in the contract title (e.g., 'Provider Agreement – Medicaid') or within a Schedule of Lines of Business."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Line of Business Found",
+          "description": "Final decision if Line of Business is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Line of Business."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Line of Business Not Found",
+          "description": "Final decision if Line of Business is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Line of Business."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Provider Type",
+          "description": "Definition: The general classification of the provider entity (e.g., Hospital, Practitioner, Ancillary).",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Provider Type located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Provider Type NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Look for provider designation on the top sheet or administrative sections. Extract the provider type as stated.",
+            "expanded_step_policies": "Often found near provider demographic details or in summary tables of the agreement."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Provider Type Found",
+          "description": "Final decision if Provider Type is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Provider Type."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Provider Type Not Found",
+          "description": "Final decision if Provider Type is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Provider Type."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Provider Type Level 2",
+          "description": "Definition: A more specific category within the provider type, such as Hospital, Behavioral Health Facility, or Primary Care.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Provider Type Level 2 located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Provider Type Level 2 NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Find the specialty or provider sub-type listed near the provider type or top sheet. Extract the more granular classification.",
+            "expanded_step_policies": "May appear in credentialing exhibits or provider specialty listings attached to the agreement."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Provider Type Level 2 Found",
+          "description": "Final decision if Provider Type Level 2 is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Provider Type Level 2."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Provider Type Level 2 Not Found",
+          "description": "Final decision if Provider Type Level 2 is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Provider Type Level 2."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "IP/OP",
+          "description": "Definition: Indicates whether the contract covers inpatient services (IP), outpatient services (OP), or both.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "IP/OP located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "IP/OP NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Look at the services covered section or reimbursement exhibit. Extract 'IP', 'OP', or 'Both' based on coverage of service types.",
+            "expanded_step_policies": "Typically indicated in a benefits matrix or fee schedule header."
+          }
+        },
+        {
+          "id": 2,
+          "name": "IP/OP Found",
+          "description": "Final decision if IP/OP is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding IP/OP."
+          }
+        },
+        {
+          "id": 3,
+          "name": "IP/OP Not Found",
+          "description": "Final decision if IP/OP is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding IP/OP."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Service Type",
+          "description": "Definition: The specific medical services provided under the contract, such as Emergency Room, Mental Health, or Surgical Services.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Service Type located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Service Type NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Search the covered services, scope of work, or reimbursement section. Extract service categories named (e.g., 'Emergency Room Services').",
+            "expanded_step_policies": "Found in a Schedule of Covered Services or in scope/definitions section."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Service Type Found",
+          "description": "Final decision if Service Type is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Service Type."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Service Type Not Found",
+          "description": "Final decision if Service Type is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Service Type."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Lesser of Logic Language included (Y/N)",
+          "description": "Definition: Indicates whether the contract includes language that states the provider will be paid the lesser of billed charges or a fee schedule.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Lesser of Logic Language included (Y/N) located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Lesser of Logic Language included (Y/N) NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Search the reimbursement section for 'lesser of', 'billed charges or fee schedule', or similar terms. Return 'Y' if such logic is present; otherwise 'N'.",
+            "expanded_step_policies": "Language often appears in payment limitation paragraphs directly after the reimbursement methodology."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Lesser of Logic Language included (Y/N) Found",
+          "description": "Final decision if Lesser of Logic Language included (Y/N) is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Lesser of Logic Language included (Y/N)."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Lesser of Logic Language included (Y/N) Not Found",
+          "description": "Final decision if Lesser of Logic Language included (Y/N) is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Lesser of Logic Language included (Y/N)."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Lesser of Rate",
+          "description": "Definition: The benchmark rate or fee schedule referenced in the lesser-of-billed-charges clause.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Lesser of Rate located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Lesser of Rate NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "In the reimbursement clause with 'lesser of' logic, extract the rate mentioned (e.g., Medicaid fee schedule, Medicare fee screen).",
+            "expanded_step_policies": "Will follow immediately after the 'lesser of' phrase, referencing Medicaid, Medicare, or internal fee schedules."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Lesser of Rate Found",
+          "description": "Final decision if Lesser of Rate is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Lesser of Rate."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Lesser of Rate Not Found",
+          "description": "Final decision if Lesser of Rate is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Lesser of Rate."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Reimb Methodology",
+          "description": "Definition: The full description of how the provider will be paid under the agreement (e.g., percent of Medicaid, DRG, per diem).",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Reimb Methodology located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Reimb Methodology NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Search the payment terms section or reimbursement exhibits. Extract the complete explanation of the payment methodology.",
+            "expanded_step_policies": "Often contained in Exhibit A – Reimbursement or a section titled 'Compensation'."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Reimb Methodology Found",
+          "description": "Final decision if Reimb Methodology is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Reimb Methodology."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Reimb Methodology Not Found",
+          "description": "Final decision if Reimb Methodology is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Reimb Methodology."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Reimb Methodology short",
+          "description": "Definition: A concise label summarizing the reimbursement method, such as 'Per Diem' or '100% of Medicaid'.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Reimb Methodology short located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Reimb Methodology short NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "From the full reimbursement methodology clause, summarize the approach into a short phrase (e.g., 'Per Diem', '100% of MCD').",
+            "expanded_step_policies": "Generated after capturing the full methodology; often appears in internal abstract summary tables."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Reimb Methodology short Found",
+          "description": "Final decision if Reimb Methodology short is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Reimb Methodology short."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Reimb Methodology short Not Found",
+          "description": "Final decision if Reimb Methodology short is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Reimb Methodology short."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "If rate is percent of Payer or MCR - Standard",
+          "description": "Definition: The full contract language specifying a payment rate as a percentage of Medicaid, Medicare, or payer-defined rates.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "If rate is percent of Payer or MCR - Standard located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "If rate is percent of Payer or MCR - Standard NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Locate the section where payment rates are defined. Extract the complete sentence or paragraph that includes the percentage and rate source.",
+            "expanded_step_policies": "Usually within the reimbursement table or narrative specifying '% of Medicaid' or '% of Medicare'."
+          }
+        },
+        {
+          "id": 2,
+          "name": "If rate is percent of Payer or MCR - Standard Found",
+          "description": "Final decision if If rate is percent of Payer or MCR - Standard is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding If rate is percent of Payer or MCR - Standard."
+          }
+        },
+        {
+          "id": 3,
+          "name": "If rate is percent of Payer or MCR - Standard Not Found",
+          "description": "Final decision if If rate is percent of Payer or MCR - Standard is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding If rate is percent of Payer or MCR - Standard."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "If rate is percent of Payer or MCR - Standard Short",
+          "description": "Definition: A brief version of the standard rate clause, summarizing the percentage and reference (e.g., '100% of Medicaid').",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "If rate is percent of Payer or MCR - Standard Short located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "If rate is percent of Payer or MCR - Standard Short NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "Summarize the extracted full-rate language into a short form like '95% of Medicare'.",
+            "expanded_step_policies": "Derived post-extraction; may appear in contract abstracts or financial summaries."
+          }
+        },
+        {
+          "id": 2,
+          "name": "If rate is percent of Payer or MCR - Standard Short Found",
+          "description": "Final decision if If rate is percent of Payer or MCR - Standard Short is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding If rate is percent of Payer or MCR - Standard Short."
+          }
+        },
+        {
+          "id": 3,
+          "name": "If rate is percent of Payer or MCR - Standard Short Not Found",
+          "description": "Final decision if If rate is percent of Payer or MCR - Standard Short is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding If rate is percent of Payer or MCR - Standard Short."
+          }
+        }
+      ]
+    },
+    {
+      "steps": [
+        {
+          "id": 1,
+          "name": "Flat Fee",
+          "description": "Definition: A specified dollar amount paid per unit of service, per visit, or per case regardless of billed amount.",
+          "nextSteps": [
+            {
+              "stepId": 2,
+              "criteria": "Flat Fee located.",
+              "logicType": "TRUE"
+            },
+            {
+              "stepId": 3,
+              "criteria": "Flat Fee NOT located.",
+              "logicType": "FALSE"
+            }
+          ],
+          "body": {
+            "relevant_text_from_source": "In the reimbursement section, search for flat dollar amounts (e.g., '$75 per visit'). Extract the amount and service it applies to.",
+            "expanded_step_policies": "Appears in pricing tables or within a paragraph under 'Payment' specifying fixed dollar amounts."
+          }
+        },
+        {
+          "id": 2,
+          "name": "Flat Fee Found",
+          "description": "Final decision if Flat Fee is found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Approve based on finding Flat Fee."
+          }
+        },
+        {
+          "id": 3,
+          "name": "Flat Fee Not Found",
+          "description": "Final decision if Flat Fee is not found.",
+          "nextSteps": [],
+          "body": {
+            "decision": "Deny due to not finding Flat Fee."
+          }
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,40 @@
+The following is the FinalOutputIntermediateRepresentation structure, also referred to as the foir format.
+
+This is is the python definition of the object. All extractions should be as a JSON that can be instantiated by this class.
+
+class ExtractedData:
+    # The name of the field
+    data_point_name: str
+    # What was extracted
+    value: str
+    # A quote or other landmark we can use to ground the model output
+    citation: str
+    # Reasoning why this answer was the best fit for the data point
+    rationale: str
+
+
+Example Extraction Valid Output:
+[
+    {
+        "data_point_name": "Contract Name",
+        "value": "Centene Provider Agreement",
+        "citation": "This document is called the Centene Provider Agreement",
+        "rationale": "This value was chosen because it was the most recent and clearly stated value in the document",
+    }
+]
+
+Another Example Valid Output:
+[
+    {
+        "data_point_name": "IRS Num",
+        "value": "92-3633257",
+        "citation": "Tax Identification Number: 92-3633257",
+        "rationale": "The Tax Identification Number is what the IRS uses to identify companies. It is Clearly stated as the value in the document",
+    },
+    {
+        "data_point_name": "contract effective date",
+        "value": "Jul 19, 2023",
+        "citation": "Effective Date: Jul 19, 2023",
+        "rationale": "This is the date the contract takes effect.",
+    }
+]

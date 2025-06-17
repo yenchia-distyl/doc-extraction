@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "section_name": "Main System Details",
+      "extracted_fields": [
+        {
+          "dataPointName": "System Name",
+          "value": "Zephyr CRM",
+          "citation": "README.md",
+          "rationale": "Project identifier in repo root.",
+          "documentName": "README.md",
+          "history": []
+        },
+        {
+          "dataPointName": "Primary Language",
+          "value": "TypeScript",
+          "citation": "package.json",
+          "rationale": "Dominant language in codebase.",
+          "documentName": "package.json",
+          "history": []
+        },
+        {
+          "dataPointName": "Version",
+          "value": "v4.7.0",
+          "citation": "CHANGELOG.md",
+          "rationale": "Latest tagged release.",
+          "documentName": "CHANGELOG.md",
+          "history": []
+        }
+      ],
+      "subsections": [
+        {
+          "section_name": "BACKEND",
+          "section_type": "Component Category",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Auth Service",
+              "section_type": "Microservice",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Authentication Protocol",
+                  "value": "OAuth 2.1",
+                  "attributes": [
+                    { "endpoint": "/auth" },
+                    { "timeout_ms": "5000" }
+                  ],
+                  "citation": "AuthService/spec.md",
+                  "rationale": "Protocol declared in service spec.",
+                  "documentName": "AuthService/spec.md",
+                  "history": []
+                },
+                {
+                  "dataPointName": "Retry Policy",
+                  "value": "Exponential back-off (3 tries)",
+                  "attributes": [
+                    { "initial_ms": "100" },
+                    { "factor": "2" }
+                  ],
+                  "citation": "AuthService/config.yaml",
+                  "rationale": "Critical for resilience.",
+                  "documentName": "AuthService/config.yaml",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "section_name": "FRONTEND",
+          "section_type": "Component Category",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Dashboard Module",
+              "section_type": "SPA Feature",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Default Theme",
+                  "value": "Dark",
+                  "attributes": [
+                    { "palette_source": "Tailwind config" },
+                    { "accessibility_rating": "AA" }
+                  ],
+                  "citation": "UI/Theme.ts",
+                  "rationale": "Accessibility first.",
+                  "documentName": "UI/Theme.ts",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

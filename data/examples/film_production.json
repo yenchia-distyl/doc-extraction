@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "section_name": "Main Production Details",
+      "extracted_fields": [
+        {
+          "dataPointName": "Film Title",
+          "value": "Quantum Drift",
+          "citation": "Cover Sheet",
+          "rationale": "Title of film project.",
+          "documentName": "Greenlight_Packet.pdf",
+          "history": []
+        },
+        {
+          "dataPointName": "Budget",
+          "value": "$85 M",
+          "citation": "Finance Summary Page",
+          "rationale": "Total production budget.",
+          "documentName": "Budget.xlsx",
+          "history": []
+        },
+        {
+          "dataPointName": "Principal Photography Start",
+          "value": "2025-09-01",
+          "citation": "Schedule Gantt Chart",
+          "rationale": "First day on-set.",
+          "documentName": "Schedule.mpp",
+          "history": []
+        }
+      ],
+      "subsections": [
+        {
+          "section_name": "CAST",
+          "section_type": "Department",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Lead Roles",
+              "section_type": "Team",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Lead Actor 1",
+                  "value": "Ava Kim",
+                  "attributes": [
+                    { "role": "Dr. Zenith" },
+                    { "salary": "$6 M" }
+                  ],
+                  "citation": "Talent Deal Memo",
+                  "rationale": "Contracted salary and role.",
+                  "documentName": "Deal_AvaKim.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "section_name": "PRODUCTION",
+          "section_type": "Department",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "VFX Unit",
+              "section_type": "Team",
+              "extracted_fields": [
+                {
+                  "dataPointName": "Vendor",
+                  "value": "PixelForge Studios",
+                  "attributes": [
+                    { "shots_committed": "220" },
+                    { "delivery_deadline": "2026-02-15" }
+                  ],
+                  "citation": "VFX Scope of Work",
+                  "rationale": "Defines contract deliverables.",
+                  "documentName": "VFX_SOW.pdf",
+                  "history": []
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "sections": [
+    {
+      "section_name": "Main Contract Details",
+      "extracted_fields": [],
+      "subsections": [
+        {
+          "section_name": "MEDICAID",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Professional Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "MA Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "Clause explicitly contains the lesser-of language.",
+                              "document_name": "Attachment A – Medicaid – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "100% of the Payor's Medicaid fee schedule",
+                              "citation": "lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "Benchmark rate in the same sentence.",
+                              "document_name": "Attachment A – Medicaid – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Allowed Amount equals the lesser of billed charges or 100% of the Medicaid fee schedule for outpatient professional services.",
+                              "citation": "Except as otherwise provided, the Allowed Amount for professional Covered Services is the lesser of… 100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "Full text of the methodology clause.",
+                              "document_name": "Attachment A – Medicaid – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "100% of Medicaid",
+                              "citation": "100% of the Payor's Medicaid fee schedule.",
+                              "rationale": "Concise label for the methodology.",
+                              "document_name": "Attachment A – Medicaid – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "",
+                              "citation": "No flat-dollar payment amounts are stated in the Medicaid compensation schedule.",
+                              "rationale": "Schedule lists only percentage-of-fee-schedule payments.",
+                              "document_name": "Attachment A – Medicaid – Exhibit 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_name": "MEDICARE",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Professional Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "OP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Covered Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "MA-PD Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "Y",
+                              "citation": "The Allowed Amount for Covered Services is the lesser of: (i) Allowable Charges; or (ii)… 100% of the Medicare fee schedule in effect on the date of service.",
+                              "rationale": "Clause includes the 'lesser of' logic.",
+                              "document_name": "Attachment B – Medicare – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "100% of the Medicare fee schedule",
+                              "citation": "100% of the Medicare fee schedule in effect on the date of service…",
+                              "rationale": "Benchmark rate stated.",
+                              "document_name": "Attachment B – Medicare – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Allowed Amount equals the lesser of billed charges or 100% of Medicare fee schedule (or contracted Table 1 rates).",
+                              "citation": "Allowed Amount for Covered Services is the lesser of… 100% of the Medicare fee schedule… or the contracted rates in Table 1.",
+                              "rationale": "Full description of methodology.",
+                              "document_name": "Attachment B – Medicare – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "100% of Medicare",
+                              "citation": "100% of the Medicare fee schedule…",
+                              "rationale": "Concise label for the methodology.",
+                              "document_name": "Attachment B – Medicare – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "",
+                              "citation": "No specific flat fee amounts are mentioned in the Medicare compensation schedule.",
+                              "rationale": "Payment is based on percentage of fee schedule, not flat amounts.",
+                              "document_name": "Attachment B – Medicare – Exhibit 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_name": "COMMERCIAL-EXCHANGE",
+          "section_type": "Line of Business",
+          "extracted_fields": [],
+          "subsections": [
+            {
+              "section_name": "Facility Services",
+              "section_type": "Provider Type",
+              "extracted_fields": [],
+              "subsections": [
+                {
+                  "section_name": "IP",
+                  "section_type": "IP/OP",
+                  "extracted_fields": [],
+                  "subsections": [
+                    {
+                      "section_name": "Emergency Services",
+                      "section_type": "Service Type",
+                      "extracted_fields": [],
+                      "subsections": [
+                        {
+                          "section_name": "Individual Exchange Plan",
+                          "section_type": "Plan Type",
+                          "extracted_fields": [
+                            {
+                              "data_point_name": "Lesser of Logic Language included (Y/N)",
+                              "value": "N",
+                              "citation": "Payment shall be 110% of Medicare reimbursement rates.",
+                              "rationale": "No lesser-of language present, direct percentage stated.",
+                              "document_name": "Attachment C – Commercial-Exchange – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Lesser of Rate",
+                              "value": "",
+                              "citation": "No lesser-of clause present in this section.",
+                              "rationale": "Direct percentage payment method used instead.",
+                              "document_name": "Attachment C – Commercial-Exchange – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology",
+                              "value": "Payment equals 110% of Medicare reimbursement rates for emergency inpatient facility services.",
+                              "citation": "Payment shall be 110% of Medicare reimbursement rates.",
+                              "rationale": "Direct methodology statement.",
+                              "document_name": "Attachment C – Commercial-Exchange – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Reimb Methodology short",
+                              "value": "110% of Medicare",
+                              "citation": "110% of Medicare reimbursement rates.",
+                              "rationale": "Abbreviated version of the methodology.",
+                              "document_name": "Attachment C – Commercial-Exchange – Exhibit 1",
+                              "history": []
+                            },
+                            {
+                              "data_point_name": "Flat Fee",
+                              "value": "",
+                              "citation": "No flat fee amounts specified for this service category.",
+                              "rationale": "Percentage-based payment method used.",
+                              "document_name": "Attachment C – Commercial-Exchange – Exhibit 1",
+                              "history": []
+                            }
+                          ],
+                          "subsections": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 
