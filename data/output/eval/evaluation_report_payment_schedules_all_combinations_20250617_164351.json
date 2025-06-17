@@ -1,0 +1,553 @@
+{
+  "evaluation_metadata": {
+    "evaluation_date": "2025-06-17T16:43:51.488964",
+    "source_file": "data/output/old_output/payment_schedules_all_combinations.json",
+    "ground_truth_document": "data/test_text.md",
+    "total_api_calls": 5,
+    "evaluator_version": "2.0",
+    "ground_truth_enabled": true,
+    "source_documents": [
+      "data/test_text.md"
+    ]
+  },
+  "structural_analysis": {
+    "total_schedules": 33,
+    "unique_combinations": 33,
+    "combinations_list": [
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Professional Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Targeted Case Management Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Primary Care Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Anesthesia Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Primary Care Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Anesthesia Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Laboratory Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Laboratory Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Early and Periodic Screening, Diagnostic, and Treatment (EPSDT)",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Pharmacy Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Specialty Care Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Emergency Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Targeted Case Management Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Telehealth Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Primary Care Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Anesthesia Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Behavioral Health Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Behavioral Health Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Laboratory Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Professional Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Professional Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Emergency Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Early and Periodic Screening, Diagnostic, and Treatment (EPSDT)",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Emergency Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Pharmacy Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Early and Periodic Screening, Diagnostic, and Treatment (EPSDT)",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Specialty Care Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Pharmacy Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Specialty Care Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Behavioral Health Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Telehealth Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Telehealth Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Targeted Case Management Services",
+        "Children's Health Insurance Program"
+      ]
+    ],
+    "lines_of_business": [
+      "MEDICAID"
+    ],
+    "provider_types": [
+      "Professional Services"
+    ],
+    "ip_ops": [
+      "OP"
+    ],
+    "service_types": [
+      "Anesthesia Services",
+      "Specialty Care Services",
+      "Laboratory Services",
+      "Emergency Services",
+      "Behavioral Health Services",
+      "Professional Services",
+      "Early and Periodic Screening, Diagnostic, and Treatment (EPSDT)",
+      "Telehealth Services",
+      "Targeted Case Management Services",
+      "Primary Care Services",
+      "Pharmacy Services"
+    ],
+    "plan_types": [
+      "Specialty Program",
+      "Children's Health Insurance Program",
+      "SoonerSelect"
+    ],
+    "field_completeness": {
+      "Lesser of Logic Language included (Y/N)": 33,
+      "Lesser of Rate": 29,
+      "Reimb Methodology": 33,
+      "Reimb Methodology short": 33
+    },
+    "expected_total_combinations": 33
+  },
+  "ground_truth_data": {
+    "data/test_text.md": {
+      "line_of_business": "MEDICAID",
+      "available_combinations": [
+        {
+          "hierarchy": {
+            "line_of_business": "MEDICAID",
+            "provider_type": "Professional Services",
+            "ip_op": "OP",
+            "service_type": "General Covered Services",
+            "plan_type": "SoonerSelect"
+          },
+          "payment_fields": {
+            "lesser_of_logic": "Y - 'the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.'",
+            "lesser_of_rate": "100% of the Payor's Medicaid fee schedule",
+            "reimb_methodology": "Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+            "reimb_methodology_short": "Allowed Amount minus Cost-Sharing",
+            "flat_fee": ""
+          },
+          "rationale": "The document specifies payment terms for professional services under the SoonerSelect Medicaid plan, including the lesser of logic and reimbursement methodology."
+        },
+        {
+          "hierarchy": {
+            "line_of_business": "MEDICAID",
+            "provider_type": "Behavioral Health Services",
+            "ip_op": "IP",
+            "service_type": "Behavioral Health Crisis Services",
+            "plan_type": "Specialty Program"
+          },
+          "payment_fields": {
+            "lesser_of_logic": "N",
+            "lesser_of_rate": "",
+            "reimb_methodology": "Providers of Behavioral Health Crisis Services shall cooperate and comply with Health Plan's policies and procedures.",
+            "reimb_methodology_short": "Comply with Health Plan's policies",
+            "flat_fee": ""
+          },
+          "rationale": "The document outlines compliance requirements for Behavioral Health Crisis Services under the Specialty Program, but does not specify a lesser of logic or flat fee."
+        },
+        {
+          "hierarchy": {
+            "line_of_business": "MEDICAID",
+            "provider_type": "Pharmacy Services",
+            "ip_op": "OP",
+            "service_type": "Pharmacy Program",
+            "plan_type": "Specialty Program"
+          },
+          "payment_fields": {
+            "lesser_of_logic": "N",
+            "lesser_of_rate": "",
+            "reimb_methodology": "Provider shall apprise itself of the Oklahoma Pediatric Psychotropic Medication Guidelines and participate in any education and training required.",
+            "reimb_methodology_short": "Follow Psychotropic Medication Guidelines",
+            "flat_fee": ""
+          },
+          "rationale": "The document specifies guidelines for pharmacy services under the Specialty Program but does not provide specific payment rates or lesser of logic."
+        },
+        {
+          "hierarchy": {
+            "line_of_business": "MEDICAID",
+            "provider_type": "Professional Services",
+            "ip_op": "OP",
+            "service_type": "Targeted Case Management",
+            "plan_type": "Specialty Program"
+          },
+          "payment_fields": {
+            "lesser_of_logic": "N",
+            "lesser_of_rate": "",
+            "reimb_methodology": "Targeted Case Management (TCM) services shall be reimbursed at the current Medicaid rate.",
+            "reimb_methodology_short": "Reimbursed at Medicaid rate",
+            "flat_fee": ""
+          },
+          "rationale": "The document specifies that TCM services are reimbursed at the current Medicaid rate, indicating a specific reimbursement methodology."
+        }
+      ],
+      "document_summary": "The document provides detailed payment information for various services under the Medicaid line of business, specifically for the SoonerSelect and Specialty Programs. It outlines the use of lesser of logic for professional services, specifies reimbursement methodologies for different service types, and includes compliance requirements for behavioral health and pharmacy services. However, it lacks specific flat fee amounts and detailed lesser of logic for some service types."
+    }
+  },
+  "duplicates_and_conflicts": {
+    "duplicates": [],
+    "conflicts": []
+  },
+  "completeness_evaluation": {
+    "completeness_score": 1,
+    "completeness_percentage": 0.0,
+    "combinations_analysis": {
+      "total_available": 4,
+      "total_extracted": 33,
+      "correctly_found": 0,
+      "missing_count": 4,
+      "extra_count": 33
+    },
+    "missing_combinations": [
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Targeted Case Management",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Behavioral Health Services",
+        "IP",
+        "Behavioral Health Crisis Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Pharmacy Services",
+        "OP",
+        "Pharmacy Program",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "General Covered Services",
+        "SoonerSelect"
+      ]
+    ],
+    "extra_combinations": [
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Professional Services",
+        "SoonerSelect"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Targeted Case Management Services",
+        "Specialty Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Primary Care Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Anesthesia Services",
+        "Children's Health Insurance Program"
+      ],
+      [
+        "MEDICAID",
+        "Professional Services",
+        "OP",
+        "Primary Care Services",
+        "Specialty Program"
+      ]
+    ],
+    "recommendations": [
+      "Review the extraction process to ensure it captures the specific combinations outlined in the ground truth.",
+      "Implement validation checks to reduce the extraction of incorrect or extra combinations.",
+      "Enhance the extraction algorithm to better recognize and match the exact service descriptions and program names as specified in the ground truth."
+    ],
+    "overall_assessment": "The extraction process failed to capture any of the correct combinations from the ground truth, resulting in a completeness score of 0. The presence of numerous extra combinations suggests a need for refining the extraction criteria to align more closely with the specified ground truth requirements."
+  },
+  "accuracy_evaluation": {
+    "accuracy_score": 1,
+    "field_accuracy_percentages": {},
+    "field_accuracy": {
+      "lesser_of_logic": {
+        "score": 1,
+        "accuracy_percentage": 0.0,
+        "issues": [
+          "No data available for comparison"
+        ]
+      },
+      "lesser_of_rate": {
+        "score": 1,
+        "accuracy_percentage": 0.0,
+        "issues": [
+          "No data available for comparison"
+        ]
+      },
+      "reimb_methodology": {
+        "score": 1,
+        "accuracy_percentage": 0.0,
+        "issues": [
+          "No data available for comparison"
+        ]
+      },
+      "reimb_methodology_short": {
+        "score": 1,
+        "accuracy_percentage": 0.0,
+        "issues": [
+          "No data available for comparison"
+        ]
+      },
+      "flat_fee": {
+        "score": 1,
+        "accuracy_percentage": 0.0,
+        "issues": [
+          "No data available for comparison"
+        ]
+      }
+    },
+    "recommendations": [
+      "Ensure that ground truth data is available for comparison to accurately assess extraction performance.",
+      "Implement a robust data collection process to gather sufficient samples for each field.",
+      "Consider using automated tools to increase the efficiency of data extraction and comparison."
+    ],
+    "overall_assessment": "No ground truth data was available for comparison, resulting in an inability to assess accuracy. Future evaluations should include comprehensive ground truth data to enable meaningful analysis.",
+    "comparisons_made": 0
+  },
+  "consistency_evaluation": {
+    "consistency_score": 10,
+    "duplicate_analysis": {
+      "total_duplicates": 0,
+      "problematic_duplicates": 0,
+      "acceptable_duplicates": 0
+    },
+    "conflict_analysis": {
+      "total_conflicts": 0,
+      "critical_conflicts": [],
+      "minor_conflicts": []
+    },
+    "patterns": [],
+    "recommendations": [
+      "Maintain current data validation processes to ensure continued consistency.",
+      "Regularly review contract extraction procedures to prevent future inconsistencies."
+    ],
+    "overall_assessment": "The data extraction for the medical contract payments shows excellent consistency with no duplicate combinations or conflicting values found. This indicates a high level of data integrity and reliability in the current processes."
+  },
+  "overall_assessment": {
+    "overall_score": 4,
+    "dimensional_scores": {
+      "completeness": 1,
+      "accuracy": 1,
+      "consistency": 10
+    },
+    "ground_truth_metrics": {
+      "completeness_percentage": 0.0,
+      "avg_field_accuracy": null,
+      "ground_truth_available": true
+    },
+    "strengths": [
+      "The system demonstrates excellent consistency with no duplicate combinations or conflicting values, indicating strong data integrity."
+    ],
+    "weaknesses": [
+      "The extraction process failed to capture any correct combinations from the ground truth, resulting in a completeness score of 0.",
+      "No ground truth data was available for accuracy assessment, leading to an inability to evaluate field accuracy."
+    ],
+    "priority_improvements": [
+      "Refine the extraction criteria to align more closely with the specified ground truth requirements to improve completeness.",
+      "Ensure that ground truth data is available for all fields to enable accurate performance assessment.",
+      "Implement validation checks to reduce the extraction of incorrect or extra combinations."
+    ],
+    "production_readiness": {
+      "ready": false,
+      "confidence_level": "low",
+      "key_blockers": [
+        "Lack of completeness in capturing correct combinations.",
+        "Absence of ground truth data for accuracy evaluation."
+      ],
+      "recommended_next_steps": [
+        "Conduct a thorough review of the extraction process to identify and rectify issues causing incorrect and extra combinations.",
+        "Establish a robust data collection process to gather comprehensive ground truth data for all fields."
+      ]
+    },
+    "summary": "The medical contract payment extraction system shows strong consistency but is significantly lacking in completeness and accuracy due to the failure to capture correct combinations and the absence of ground truth data for accuracy evaluation. Immediate improvements are needed in refining extraction criteria and ensuring comprehensive ground truth data availability. The system is not ready for production use, with a low confidence level due to these critical issues."
+  }
+}

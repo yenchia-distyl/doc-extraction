@@ -791,7 +791,7 @@ Return JSON with EXACTLY this format:
             logger.error(f"Exception in overall assessment: {e}")
             return {"error": str(e)}
     
-    async def evaluate_extraction(self, file_path: str) -> Dict[str, Any]:
+    async def evaluate_extraction(self, file_path: str, ground_truth_document: str = None) -> Dict[str, Any]:
         """Main evaluation pipeline with ground truth comparison."""
         logger.info("Starting payment extraction evaluation with ground truth...")
         
@@ -805,9 +805,19 @@ Return JSON with EXACTLY this format:
         logger.info(f"Found {len(duplicates_info['duplicates'])} duplicate combinations")
         logger.info(f"Found {len(duplicates_info['conflicts'])} conflicting values")
         
-        # Identify and load source documents
-        source_files = self.identify_source_documents(data)
-        source_content = self.load_source_documents(source_files)
+        # Handle ground truth document
+        if ground_truth_document:
+            # Use explicitly provided ground truth document
+            logger.info(f"Using explicitly provided ground truth document: {ground_truth_document}")
+            if Path(ground_truth_document).exists():
+                source_content = self.load_source_documents([ground_truth_document])
+            else:
+                logger.error(f"Ground truth document not found: {ground_truth_document}")
+                source_content = {}
+        else:
+            # Identify and load source documents from extraction results
+            source_files = self.identify_source_documents(data)
+            source_content = self.load_source_documents(source_files)
         
         if not source_content:
             logger.warning("No source documents found - evaluation will be limited")
@@ -842,6 +852,7 @@ Return JSON with EXACTLY this format:
             "evaluation_metadata": {
                 "evaluation_date": datetime.now().isoformat(),
                 "source_file": file_path,
+                "ground_truth_document": ground_truth_document,
                 "total_api_calls": self.total_api_calls,
                 "evaluator_version": "2.0",
                 "ground_truth_enabled": len(source_content) > 0,
@@ -879,6 +890,66 @@ Return JSON with EXACTLY this format:
         print(f"  • Completeness: {dimensional.get('completeness', 'N/A')}/10")
         print(f"  • Accuracy: {dimensional.get('accuracy', 'N/A')}/10") 
         print(f"  • Consistency: {dimensional.get('consistency', 'N/A')}/10")
+        
+        # Key findings summary
+        print(f"\n🔍 KEY FINDINGS:")
+        overall_score = overall.get('overall_score', 0)
+        completeness_score = dimensional.get('completeness', 0)
+        accuracy_score = dimensional.get('accuracy', 0)
+        consistency_score = dimensional.get('consistency', 0)
+        
+        # Interpret overall performance
+        if overall_score >= 8:
+            performance_level = "Excellent performance"
+        elif overall_score >= 6:
+            performance_level = "Good performance"
+        elif overall_score >= 4:
+            performance_level = "Fair performance"
+        else:
+            performance_level = "Poor performance"
+        
+        print(f"  • Overall Score: {overall_score}/10 ({performance_level})")
+        
+        # Completeness findings
+        completeness_eval = results.get('completeness_evaluation', {})
+        if completeness_eval.get('completeness_percentage') is not None:
+            combinations_analysis = completeness_eval.get('combinations_analysis', {})
+            correctly_found = combinations_analysis.get('correctly_found', 0)
+            total_available = combinations_analysis.get('total_available', 0)
+            print(f"  • Completeness: {completeness_score}/10 - Found {correctly_found} out of {total_available} available combinations from ground truth")
+        else:
+            print(f"  • Completeness: {completeness_score}/10 - Unable to assess against ground truth")
+        
+        # Accuracy findings
+        accuracy_eval = results.get('accuracy_evaluation', {})
+        if accuracy_eval.get('field_accuracy_percentages'):
+            avg_accuracy = sum(accuracy_eval['field_accuracy_percentages'].values()) / len(accuracy_eval['field_accuracy_percentages'])
+            print(f"  • Accuracy: {accuracy_score}/10 - Average field accuracy: {avg_accuracy:.1%}")
+        else:
+            print(f"  • Accuracy: {accuracy_score}/10 - Field accuracy assessment unavailable")
+        
+        # Consistency findings
+        duplicates = results.get('duplicates_and_conflicts', {})
+        duplicate_count = len(duplicates.get('duplicates', []))
+        conflict_count = len(duplicates.get('conflicts', []))
+        if duplicate_count == 0 and conflict_count == 0:
+            print(f"  • Consistency: {consistency_score}/10 - Excellent (no duplicates or conflicts)")
+        else:
+            print(f"  • Consistency: {consistency_score}/10 - {duplicate_count} duplicates, {conflict_count} conflicts found")
+        
+        # Data volume comparison
+        analysis = results.get('structural_analysis', {})
+        extracted_combinations = analysis.get('unique_combinations', 0)
+        if completeness_eval.get('combinations_analysis'):
+            ground_truth_combinations = completeness_eval['combinations_analysis'].get('total_available', 0)
+            if ground_truth_combinations > 0:
+                ratio = extracted_combinations / ground_truth_combinations
+                if ratio > 2:
+                    print(f"  • The extracted data contains {extracted_combinations} combinations but ground truth only has {ground_truth_combinations} valid combinations, indicating potential over-generation")
+                elif ratio < 0.5:
+                    print(f"  • The extracted data contains {extracted_combinations} combinations vs {ground_truth_combinations} in ground truth, indicating potential under-extraction")
+                else:
+                    print(f"  • Extraction volume appears reasonable: {extracted_combinations} extracted vs {ground_truth_combinations} expected combinations")
         
         # Show ground truth metrics if available
         completeness_eval = results.get('completeness_evaluation', {})
@@ -952,14 +1023,17 @@ def create_parser():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Evaluate extraction results
+  # Evaluate extraction results (auto-detect source documents)
   python payment_extraction_evaluator.py --input payment_schedules_all_combinations.json
   
+  # Evaluate with explicit ground truth document
+  python payment_extraction_evaluator.py --input results.json --document data/test_text.md
+  
   # Save detailed report
-  python payment_extraction_evaluator.py --input results.json --output evaluation_report.json
+  python payment_extraction_evaluator.py --input results.json --document data/test_text.md --output evaluation_report.json
   
   # Quiet mode with summary only
-  python payment_extraction_evaluator.py --input results.json --quiet
+  python payment_extraction_evaluator.py --input results.json --document data/test_text.md --quiet
         """
     )
     
@@ -967,6 +1041,11 @@ Examples:
         "--input", "-i",
         required=True,
         help="Input JSON file with payment extraction results"
+    )
+    
+    parser.add_argument(
+        "--document", "-d",
+        help="Ground truth document (.md file) to evaluate against (optional, will auto-detect if not provided)"
     )
     
     parser.add_argument(
@@ -1008,10 +1087,15 @@ async def main():
         print(f"❌ Error: Input file not found: {args.input}")
         return 1
     
+    # Check ground truth document if provided
+    if args.document and not Path(args.document).exists():
+        print(f"❌ Error: Ground truth document not found: {args.document}")
+        return 1
+    
     try:
         # Run evaluation
         evaluator = PaymentExtractionEvaluator(api_key)
-        results = await evaluator.evaluate_extraction(args.input)
+        results = await evaluator.evaluate_extraction(args.input, args.document)
         
         # Determine output file
         if args.output:
