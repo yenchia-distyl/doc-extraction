@@ -527,7 +527,6 @@ Look for:
 1. Tables or sections that specify payment rates for specific services
 2. Service categories that are explicitly mentioned with specific plans
 3. Any service-plan combinations that have distinct payment methodologies
-4. Skip combinations where there's no specific mention or payment information
 
 Return JSON with EXACTLY this format:
 {{
