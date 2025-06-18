@@ -7,6 +7,7 @@ import asyncio
 import aiohttp
 from datetime import datetime
 import logging
+from openai import AsyncOpenAI
 
 # Try to load .env file if it exists
 try:
@@ -68,38 +69,32 @@ Be precise and use standard industry terminology.
 """
         
         try:
-            async with session.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "You are a healthcare contract expert. Identify lines of business accurately. Always return valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    "temperature": 0.1,
-                    "max_tokens": 100,
-                    "response_format": {"type": "json_object"}
-                }
-            ) as response:
-                self.total_api_calls += 1
-                if response.status == 200:
-                    result = await response.json()
-                    parsed = json.loads(result['choices'][0]['message']['content'])
-                    return parsed.get("line_of_business", "UNKNOWN")
-                else:
-                    logger.error(f"Error determining line of business: {response.status}")
-                    # Fallback to programmatic detection
-                    if 'Medicaid' in filename:
-                        return 'MEDICAID'
-                    elif 'Medicare' in filename:
-                        return 'MEDICARE'
-                    elif 'Commercial' in filename or 'Exchange' in filename:
-                        return 'COMMERCIAL-EXCHANGE'
-                    return 'UNKNOWN'
+            client = AsyncOpenAI(api_key=self.api_key)
+            response = await client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a healthcare contract expert. Identify lines of business accurately. Always return valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=100,
+                response_format={"type": "json_object"}
+            )
+            self.total_api_calls += 1
+            if response.status == 200:
+                result = response.choices[0].message.content
+                parsed = json.loads(result)
+                return parsed.get("line_of_business", "UNKNOWN")
+            else:
+                logger.error(f"Error determining line of business: {response.status}")
+                # Fallback to programmatic detection
+                if 'Medicaid' in filename:
+                    return 'MEDICAID'
+                elif 'Medicare' in filename:
+                    return 'MEDICARE'
+                elif 'Commercial' in filename or 'Exchange' in filename:
+                    return 'COMMERCIAL-EXCHANGE'
+                return 'UNKNOWN'
         except Exception as e:
             logger.error(f"Exception in line of business detection: {e}")
             return 'UNKNOWN'
@@ -137,37 +132,31 @@ Important:
 """
         
         try:
-            async with session.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "You are a medical contract expert. Identify service categories precisely. Always return valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    "temperature": 0.1,
-                    "max_tokens": 500,
-                    "response_format": {"type": "json_object"}
-                }
-            ) as response:
-                self.total_api_calls += 1
-                if response.status == 200:
-                    result = await response.json()
-                    parsed = json.loads(result['choices'][0]['message']['content'])
-                    services = parsed.get("service_categories", [])
-                    
-                    if not services:
-                        services = ["Covered Services"]
-                    
-                    logger.info(f"LLM identified service categories: {services}")
-                    return services
-                else:
-                    logger.error(f"Error identifying service categories: {response.status}")
-                    return ["Covered Services"]
+            client = AsyncOpenAI(api_key=self.api_key)
+            response = await client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a medical contract expert. Identify service categories precisely. Always return valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=500,
+                response_format={"type": "json_object"}
+            )
+            self.total_api_calls += 1
+            if response.status == 200:
+                result = response.choices[0].message.content
+                parsed = json.loads(result)
+                services = parsed.get("service_categories", [])
+                
+                if not services:
+                    services = ["Covered Services"]
+                
+                logger.info(f"LLM identified service categories: {services}")
+                return services
+            else:
+                logger.error(f"Error identifying service categories: {response.status}")
+                return ["Covered Services"]
         except Exception as e:
             logger.error(f"Exception in service category detection: {e}")
             return ["Covered Services"]
@@ -202,37 +191,31 @@ Important:
 """
         
         try:
-            async with session.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "You are a healthcare insurance expert. Identify plan types accurately. Always return valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    "temperature": 0.1,
-                    "max_tokens": 300,
-                    "response_format": {"type": "json_object"}
-                }
-            ) as response:
-                self.total_api_calls += 1
-                if response.status == 200:
-                    result = await response.json()
-                    parsed = json.loads(result['choices'][0]['message']['content'])
-                    plan_types = parsed.get("plan_types", [])
-                    
-                    if not plan_types:
-                        plan_types = [f"{line_of_business} Product"]
-                    
-                    logger.info(f"LLM identified plan types: {plan_types}")
-                    return plan_types
-                else:
-                    logger.error(f"Error identifying plan types: {response.status}")
-                    return [f"{line_of_business} Product"]
+            client = AsyncOpenAI(api_key=self.api_key)
+            response = await client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a healthcare insurance expert. Identify plan types accurately. Always return valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=300,
+                response_format={"type": "json_object"}
+            )
+            self.total_api_calls += 1
+            if response.status == 200:
+                result = response.choices[0].message.content
+                parsed = json.loads(result)
+                plan_types = parsed.get("plan_types", [])
+                
+                if not plan_types:
+                    plan_types = [f"{line_of_business} Product"]
+                
+                logger.info(f"LLM identified plan types: {plan_types}")
+                return plan_types
+            else:
+                logger.error(f"Error identifying plan types: {response.status}")
+                return [f"{line_of_business} Product"]
         except Exception as e:
             logger.error(f"Exception in plan type detection: {e}")
             return [f"{line_of_business} Product"]
@@ -298,55 +281,48 @@ Key instructions:
 """
         
         try:
-            async with session.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "You are a medical contract expert. Extract payment information exactly as requested. Always return valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    "temperature": 0.1,
-                    "max_tokens": 1000,
-                    "response_format": {"type": "json_object"}
-                }
-            ) as response:
-                self.total_api_calls += 1
-                if response.status == 200:
-                    result = await response.json()
-                    content_str = result['choices'][0]['message']['content']
+            client = AsyncOpenAI(api_key=self.api_key)
+            response = await client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a medical contract expert. Extract payment information exactly as requested. Always return valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=1000,
+                response_format={"type": "json_object"}
+            )
+            self.total_api_calls += 1
+            if response.status == 200:
+                result = response.choices[0].message.content
+                
+                try:
+                    parsed = json.loads(result)
+                    fields = []
                     
-                    try:
-                        parsed = json.loads(content_str)
-                        fields = []
-                        
-                        if "fields" in parsed and isinstance(parsed["fields"], list):
-                            for field in parsed["fields"]:
-                                fields.append({
-                                    "data_point_name": field.get("data_point_name", ""),
-                                    "value": field.get("value", ""),
-                                    "citation": field.get("citation", ""),
-                                    "rationale": field.get("rationale", ""),
-                                    "document_name": filename
-                                })
-                        
-                        if len(fields) != 5:
-                            logger.warning(f"Expected 5 fields but got {len(fields)}")
-                            return self._create_empty_fields()
-                        
-                        return fields
-                        
-                    except json.JSONDecodeError as e:
-                        logger.error(f"Failed to parse JSON response: {e}")
+                    if "fields" in parsed and isinstance(parsed["fields"], list):
+                        for field in parsed["fields"]:
+                            fields.append({
+                                "data_point_name": field.get("data_point_name", ""),
+                                "value": field.get("value", ""),
+                                "citation": field.get("citation", ""),
+                                "rationale": field.get("rationale", ""),
+                                "document_name": filename
+                            })
+                    
+                    if len(fields) != 5:
+                        logger.warning(f"Expected 5 fields but got {len(fields)}")
                         return self._create_empty_fields()
-                else:
-                    error_text = await response.text()
-                    logger.error(f"API error: {response.status} - {error_text}")
+                    
+                    return fields
+                    
+                except json.JSONDecodeError as e:
+                    logger.error(f"Failed to parse JSON response: {e}")
                     return self._create_empty_fields()
+            else:
+                error_text = await response.text()
+                logger.error(f"API error: {response.status} - {error_text}")
+                return self._create_empty_fields()
                     
         except Exception as e:
             logger.error(f"Exception during extraction: {str(e)}")
@@ -573,48 +549,42 @@ Important:
 """
         
         try:
-            async with session.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "You are a medical contract expert. Identify valid service-plan combinations accurately. Always return valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    "temperature": 0.1,
-                    "max_tokens": 800,
-                    "response_format": {"type": "json_object"}
-                }
-            ) as response:
-                self.total_api_calls += 1
-                if response.status == 200:
-                    result = await response.json()
-                    parsed = json.loads(result['choices'][0]['message']['content'])
-                    combinations = parsed.get("valid_combinations", [])
-                    
-                    if not combinations:
-                        # Fallback to at least one combination
-                        combinations = [{
-                            "service_type": service_types[0] if service_types else "Professional Services",
-                            "plan_type": plan_types[0] if plan_types else f"{line_of_business} Product",
-                            "has_specific_rates": False,
-                            "rationale": "Fallback combination"
-                        }]
-                    
-                    logger.info(f"LLM identified {len(combinations)} valid combinations")
-                    return combinations
-                else:
-                    logger.error(f"Error identifying valid combinations: {response.status}")
-                    return [{
+            client = AsyncOpenAI(api_key=self.api_key)
+            response = await client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a medical contract expert. Identify valid service-plan combinations accurately. Always return valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=800,
+                response_format={"type": "json_object"}
+            )
+            self.total_api_calls += 1
+            if response.status == 200:
+                result = response.choices[0].message.content
+                parsed = json.loads(result)
+                combinations = parsed.get("valid_combinations", [])
+                
+                if not combinations:
+                    # Fallback to at least one combination
+                    combinations = [{
                         "service_type": service_types[0] if service_types else "Professional Services",
                         "plan_type": plan_types[0] if plan_types else f"{line_of_business} Product",
                         "has_specific_rates": False,
-                        "rationale": "Error fallback"
+                        "rationale": "Fallback combination"
                     }]
+                
+                logger.info(f"LLM identified {len(combinations)} valid combinations")
+                return combinations
+            else:
+                logger.error(f"Error identifying valid combinations: {response.status}")
+                return [{
+                    "service_type": service_types[0] if service_types else "Professional Services",
+                    "plan_type": plan_types[0] if plan_types else f"{line_of_business} Product",
+                    "has_specific_rates": False,
+                    "rationale": "Error fallback"
+                }]
         except Exception as e:
             logger.error(f"Exception in combination detection: {e}")
             return [{
