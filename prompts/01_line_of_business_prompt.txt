@@ -1,0 +1,21 @@
+Analyze this medical contract filename and content excerpt to determine the Line of Business.
+
+Filename: {filename}
+
+Content excerpt (first 500 chars):
+{content[:500]}
+
+Common Lines of Business include:
+- MEDICAID
+- MEDICARE  
+- COMMERCIAL-EXCHANGE
+
+Return JSON with EXACTLY this format:
+{
+  "line_of_business": "THE_LINE_OF_BUSINESS_IN_CAPS"
+}
+
+Be precise and use standard industry terminology.
+
+SYSTEM MESSAGE:
+You are a healthcare contract expert. Identify lines of business accurately. Always return valid JSON. 

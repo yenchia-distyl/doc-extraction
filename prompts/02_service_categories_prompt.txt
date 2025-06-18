@@ -1,0 +1,29 @@
+Analyze this medical contract content and identify ALL distinct service categories mentioned.
+
+Content to analyze:
+{content[:]}  # Send more content for better detection
+
+Look for:
+1. Medical service categories (e.g., Radiology, Laboratory, DME, Therapy)
+2. Professional vs Facility services
+3. Specialized services (e.g., Behavioral Health, Emergency Services)
+4. Any service types mentioned in tables, fee schedules, or service descriptions
+5. Drug and biological services
+
+Return JSON with EXACTLY this format:
+{
+  "service_categories": [
+    "Service Category 1",
+    "Service Category 2",
+    ...
+  ]
+}
+
+Important:
+- List ONLY specific service categories actually mentioned in the text
+- Use standard medical terminology (e.g., "Radiology Services" not just "X-rays")
+- If no specific services are mentioned, return ["Covered Services"]
+- Don't include generic terms like "medical services" unless that's the actual category
+
+SYSTEM MESSAGE:
+You are a medical contract expert. Identify service categories precisely. Always return valid JSON. 

@@ -1,0 +1,56 @@
+Analyze this medical contract compensation schedule and extract payment information.
+
+Document: {filename}
+Line of Business: {hierarchy['line_of_business']}
+Service Type: {hierarchy['service_type']}
+
+Text to analyze:
+{content}
+
+IMPORTANT CONTEXT: Payment fields are usually broad, meaning most combinations of line of business, provider type, service type, IP/OP, and plan type are covered the same way. However, look carefully for EXCEPTIONS and CLAUSES that may be mentioned elsewhere in the contract for specific services, provider types, or plan combinations.
+
+Return a JSON object with this EXACT structure:
+{
+  "fields": [
+    {
+      "data_point_name": "Lesser of Logic Language included (Y/N)",
+      "value": "Y or N",
+      "citation": "exact text from document",
+      "rationale": "why this value was chosen"
+    },
+    {
+      "data_point_name": "Lesser of Rate", 
+      "value": "the specific rate (e.g., 85% of the Medicare Rate for Radiology)",
+      "citation": "exact text from document",
+      "rationale": "why this value was chosen"
+    },
+    {
+      "data_point_name": "Reimb Methodology",
+      "value": "full payment calculation description",
+      "citation": "exact text from document", 
+      "rationale": "why this value was chosen"
+    },
+    {
+      "data_point_name": "Reimb Methodology short",
+      "value": "concise version (e.g., 85% MCR)",
+      "citation": "exact text from document",
+      "rationale": "why this value was chosen"
+    },
+    {
+      "data_point_name": "Flat Fee",
+      "value": "dollar amount or empty if none",
+      "citation": "exact text from document",
+      "rationale": "why this value was chosen"
+    }
+  ]
+}
+
+Key instructions:
+- For "Lesser of Logic Language included", answer Y if you find "lesser of" language
+- For "Reimb Methodology short", use abbreviations like MCR=Medicare, MCD=Medicaid
+- Leave "Flat Fee" empty unless specific dollar amounts are mentioned
+- If you find general payment terms, apply them unless there are specific exceptions for this service/plan combination
+- Look for phrases like "except for", "however", "with the exception of", or service-specific sections that override general terms
+
+SYSTEM MESSAGE:
+You are a medical contract expert. Extract payment information exactly as requested. Always return valid JSON. 

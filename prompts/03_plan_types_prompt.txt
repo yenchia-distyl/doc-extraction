@@ -1,0 +1,26 @@
+Analyze this medical contract content for the {line_of_business} line of business and identify ALL specific plan types mentioned.
+
+Content to analyze:
+{content[:2000]}
+
+For {line_of_business}, look for specific plan types such as:
+- For MEDICARE: MA Plan, MA-PD Plan, DSNP Plan, Medicare Advantage, Part D Plans, etc.
+- For MEDICAID: Medicaid Managed Care, CHIP, specific state Medicaid products
+- For COMMERCIAL: PPO, HMO, EPO, Exchange plans, specific commercial products
+
+Return JSON with EXACTLY this format:
+{
+  "plan_types": [
+    "Specific Plan Type 1",
+    "Specific Plan Type 2"
+  ]
+}
+
+Important:
+- List ONLY plan types explicitly mentioned in the text
+- Use the exact terminology from the document
+- If multiple related plans are mentioned together (e.g., "MA PLAN/MA-PD PLAN/DSNP PLAN"), keep them grouped
+- If no specific plan types are found, return ["{line_of_business} Product"]
+
+SYSTEM MESSAGE:
+You are a healthcare insurance expert. Identify plan types accurately. Always return valid JSON. 
