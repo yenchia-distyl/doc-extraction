@@ -1,0 +1,54 @@
+{
+  "extraction_date": "2025-06-17T19:12:16.635582",
+  "source_directory": "data",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "test_text.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "MEDICAID Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "test_text.md - Covered Services"
+        }
+      ]
+    }
+  ]
+}

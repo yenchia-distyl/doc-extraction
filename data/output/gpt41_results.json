@@ -1,0 +1,54 @@
+{
+  "extraction_date": "2025-06-17T19:10:40.228775",
+  "source_directory": "data",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "test_text.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Professional Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The contract explicitly states that payment is the lesser of Allowable Charges or 100% of the Payor's Medicaid fee schedule.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule",
+          "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The contract specifies that the maximum payment is the lesser of the provider's billed charges or 100% of the Medicaid fee schedule.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule. Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts. The Allowed Amount for professional Covered Services is the lesser of Allowable Charges or 100% of the Payor's Medicaid fee schedule.",
+          "citation": "Payor shall pay or arrange for payment of a Clean Claim for Covered Services rendered by the Contracted Provider according to the terms of, and subject to the requirements set forth in, the Agreement and this Compensation Schedule. Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts. The Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "This is the full payment calculation as described in the contract, including the deduction of cost-sharing amounts.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Lesser of billed charges or 100% MCD",
+          "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "This is a concise summary using standard abbreviations for Medicaid (MCD) and the 'lesser of' logic.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific dollar flat fees are mentioned for professional services in the provided contract language.",
+          "document_name": "test_text.md - Professional Services"
+        }
+      ]
+    }
+  ]
+}

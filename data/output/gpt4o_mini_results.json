@@ -1,0 +1,101 @@
+{
+  "extraction_date": "2025-06-17T19:13:15.290707",
+  "source_directory": "data",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "test_text.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Professional Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "The maximum compensation for professional Covered Services rendered to a Covered Person shall be the 'Allowed Amount.' Except as otherwise provided in this Compensation Schedule, the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The presence of 'lesser of' language indicates that the payment is determined by comparing two amounts.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule",
+          "citation": "Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "This value was chosen as it directly reflects the rate specified in the contract.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This description provides a full calculation of how reimbursement is determined.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount - Cost Sharing",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This concise version summarizes the reimbursement methodology.",
+          "document_name": "test_text.md - Professional Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific flat fee amounts are mentioned in the contract.",
+          "document_name": "test_text.md - Professional Services"
+        }
+      ]
+    },
+    {
+      "source_file": "test_text.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "The maximum compensation for professional Covered Services rendered to a Covered Person shall be the 'Allowed Amount.' Except as otherwise provided in this Compensation Schedule, the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The presence of the phrase 'lesser of' indicates that this logic is included in the payment terms.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule",
+          "citation": "Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "This is the specific rate mentioned in the contract for reimbursement.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Allowed Amount is the maximum amount payable to a Contracted Provider for any particular Covered Service provided to any particular Covered Person, pursuant to this Agreement or its Attachments, less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This describes how the reimbursement is calculated, including the deduction of cost-sharing amounts.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount - Cost Sharing",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This is a concise version of the reimbursement methodology.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific flat fee amounts are mentioned in the contract.",
+          "document_name": "test_text.md - Covered Services"
+        }
+      ]
+    }
+  ]
+}

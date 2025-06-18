@@ -1,0 +1,54 @@
+{
+  "extraction_date": "2025-06-17T19:06:51.494229",
+  "source_directory": "data",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "test_text.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "MEDICAID Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The document explicitly states that the payment will be the lesser of the Allowable Charges or 100% of the Payor's Medicaid fee schedule.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule",
+          "citation": "the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.",
+          "rationale": "The document specifies that the lesser rate applied is 100% of the Payor's Medicaid fee schedule.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "The reimbursement methodology involves calculating the Allowed Amount and then subtracting any applicable Cost-Sharing Amounts.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Allowed Amount - Cost-Sharing",
+          "citation": "Payment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.",
+          "rationale": "This is a concise version of the reimbursement methodology described, focusing on the subtraction of Cost-Sharing from the Allowed Amount.",
+          "document_name": "test_text.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific flat fee dollar amounts are mentioned in the document for the services covered under this schedule.",
+          "document_name": "test_text.md - Covered Services"
+        }
+      ]
+    }
+  ]
+}
