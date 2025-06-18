@@ -82,7 +82,7 @@ Be precise and use standard industry terminology.
         try:
             # Adjust parameters based on model
             api_params = {
-                "model": self.payment_model,
+                "model": 'gpt-4o-mini',
                 "messages": [
                     {"role": "system", "content": "You are a healthcare contract expert. Identify lines of business accurately. Always return valid JSON."},
                     {"role": "user", "content": prompt}
@@ -132,7 +132,7 @@ Be precise and use standard industry terminology.
 Analyze this medical contract content and identify ALL distinct service categories mentioned.
 
 Content to analyze:
-{content[:3000]}  # Send more content for better detection
+{content[:]}  # Send more content for better detection
 
 Look for:
 1. Medical service categories (e.g., Radiology, Laboratory, DME, Therapy)
@@ -160,7 +160,7 @@ Important:
         try:
             # Adjust parameters based on model
             api_params = {
-                "model": self.payment_model,
+                "model": 'gpt-4o-mini',
                 "messages": [
                     {"role": "system", "content": "You are a medical contract expert. Identify service categories precisely. Always return valid JSON."},
                     {"role": "user", "content": prompt}
@@ -233,7 +233,7 @@ Important:
         try:
             # Adjust parameters based on model
             api_params = {
-                "model": self.payment_model,
+                "model": 'gpt-4o-mini',
                 "messages": [
                     {"role": "system", "content": "You are a healthcare insurance expert. Identify plan types accurately. Always return valid JSON."},
                     {"role": "user", "content": prompt}

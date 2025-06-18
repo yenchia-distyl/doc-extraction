@@ -1,0 +1,383 @@
+{
+  "extraction_date": "2025-06-18T08:46:44.056024",
+  "source_directory": "data/headers/schedule",
+  "extraction_method": "LLM-based (v2)",
+  "payment_schedules": [
+    {
+      "source_file": "Attachment_A_Medicaid__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "MEDICAID",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "Medicaid Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "\u201c...the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.\u201d",
+          "rationale": "The phrase 'the lesser of' explicitly appears, establishing lesser-of logic.",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "100% of the Payor's Medicaid fee schedule (vs. billed charges)",
+          "citation": "\u201c...the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.\u201d",
+          "rationale": "The rate component in the lesser-of comparison is specified as 100% of the Payor\u2019s Medicaid fee schedule.",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Allowed Amount equals the lesser of the provider\u2019s billed charges (Allowable Charges) or 100% of the Payor\u2019s Medicaid fee schedule; payment to the provider equals this Allowed Amount minus any Cost-Sharing Amounts owed by the member.",
+          "citation": "1) \u201c...the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.\u201d 2) \u201cPayment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts.\u201d",
+          "rationale": "Combining the two cited sentences gives the full payment calculation: determine the lesser amount, then subtract member cost-sharing.",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Lesser of charges or 100% MCD FS",
+          "citation": "\u201c...the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's Medicaid fee schedule.\u201d",
+          "rationale": "This concise phrase captures the essential calculation using standard abbreviations (MCD = Medicaid fee schedule).",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific dollar flat fees are mentioned anywhere in the provided text.",
+          "document_name": "Attachment_A_Medicaid__EXHIBIT 1.md - Covered Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_B_Medicare__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "UNKNOWN",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Covered Services",
+        "plan_type": "MA PLAN/MA-PD PLAN/DSNP PLAN"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Covered Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_B_Medicare__EXHIBIT 1.md - Covered Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Professional Services",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Professional Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Professional Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Professional Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Professional Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Drugs and Biologicals",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Drugs and Biologicals"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Anesthesia Services",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Anesthesia Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Anesthesia Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Anesthesia Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Anesthesia Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Anesthesia Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Carve-Out Services",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Carve-Out Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Carve-Out Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Carve-Out Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Carve-Out Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Carve-Out Services"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Behavioral Health",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "Y",
+          "citation": "\u201c...the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.\u201d",
+          "rationale": "The phrase \u201cthe lesser of\u201d is explicitly used when defining how the Allowed Amount is calculated.",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Behavioral Health"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "Lesser of billed charges (Allowable Charges) or 100% of the Payor\u2019s fee schedule",
+          "citation": "\u201c...the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.\u201d",
+          "rationale": "This sentence states the two components compared under the lesser-of rule and identifies the specific ceiling rate (100% of Payor fee schedule).",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Behavioral Health"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "Allowed Amount equals the lesser of the provider\u2019s billed charges (Allowable Charges) or 100% of the Payor\u2019s fee schedule; payment to provider equals this Allowed Amount minus any member Cost-Sharing Amounts.",
+          "citation": "\u201cPayment under this Compensation Schedule shall consist of the Allowed Amount as set forth herein less all applicable Cost-Sharing Amounts\u2026 the Allowed Amount for professional Covered Services is the lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.\u201d",
+          "rationale": "These lines lay out both the calculation of the Allowed Amount and the subtraction of member cost sharing to arrive at the payment to the provider.",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Behavioral Health"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "Lesser of billed vs 100% Payor FS",
+          "citation": "\u201c...lesser of: (i) Allowable Charges; or (ii) 100% of the Payor's fee schedule.\u201d",
+          "rationale": "This is the concise version of the reimbursement methodology, capturing the core comparison and rate.",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Behavioral Health"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "No specific flat dollar amounts are listed for Behavioral Health services under this schedule.",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Behavioral Health"
+        }
+      ]
+    },
+    {
+      "source_file": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md",
+      "hierarchy": {
+        "line_of_business": "COMMERCIAL-EXCHANGE",
+        "provider_type": "Professional Services",
+        "ip_op": "OP",
+        "service_type": "Emergency Services",
+        "plan_type": "Commercial-Exchange Product"
+      },
+      "payment_fields": [
+        {
+          "data_point_name": "Lesser of Logic Language included (Y/N)",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Emergency Services"
+        },
+        {
+          "data_point_name": "Lesser of Rate",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Emergency Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Emergency Services"
+        },
+        {
+          "data_point_name": "Reimb Methodology short",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Emergency Services"
+        },
+        {
+          "data_point_name": "Flat Fee",
+          "value": "",
+          "citation": "",
+          "rationale": "",
+          "document_name": "Attachment_C_Commercial-Exchange__EXHIBIT 1.md - Emergency Services"
+        }
+      ]
+    }
+  ]
+}
